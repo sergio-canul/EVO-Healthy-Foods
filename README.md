@@ -1,12 +1,15 @@
-# EVO-HEALTHY_FOOD
+# EVO HEALTHY FOOD
 ## Integrantes:
-* Canul Sergio
-* Maas Ricardo
-* Flores Alejandro
-* Lizama Edrei
+* Sergio Canul
+* Ricardo Maas
+* Edrei Lizama
+* Alejandro Flores
+* Diego Pinzon
+* Gioser Dzib
+* Angel Pat
 ## DESCRIPCIÓN DE LA EMPRESA:
-Evo Healthy Foods es una empresa que tiene por objetivo establecerse como la primera empresa de origen mexicano con la temática de "comida saludable". 
-EHF tiene por objetivo abrir su primera sucursal en el estado de Yucatán, México, y así expandirse hacia los estados circundantes, luego a todo el país
-y finalmente, a nivel internacional.
-
+EVO Healthy Foods es una empresa que tiene por objetivo establecerse como la primera empresa con la temática de "Comida Saludable" en Yucatán. 
+Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales de todo Mérida, Yucatán,
+de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
+pero al mismo tiempo mantener precios asequibles.
 
