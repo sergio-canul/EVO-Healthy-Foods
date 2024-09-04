@@ -1,17 +1,18 @@
 <h1 aling="center">Healthy Foods</h1>
 
-[!Descripción] Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en software.
+Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en software.
 
 ## Integrantes
 
 ```md
 
-  1. Alejandro [!Pim]
-  2. Diego [!Dev]
-  3. Edrei [!Dev]
-  4. Esteban [!Dev]
-  5. Gioser [!Dev]
-  6. Sergio [!Dev]
+  1. Sergio Canul (PM)
+  2. Ricardo Maas (QA)
+  3. Edrei Lizama (DEV)
+  4. Alejandro Flores (DEV)
+  5. Diego Pinzon (DEV)
+  6. Gioser Dzib (DEV)
+  7. Angel Pat (DEV)
 
 ```
 
