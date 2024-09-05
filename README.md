@@ -38,8 +38,6 @@ EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y
 - *Producción y Cocina:* Elaboración de comidas saludables con ingredientes frescos y de alta calidad.
 - *Entrega a Domicilio:* Servicio de entrega rápida y eficiente, asegurando que nuestros productos lleguen frescos a nuestros clientes.
 - *Atención al Cliente:* Gestión de pedidos, consultas y resolución de quejas para garantizar la satisfacción del cliente.
-- *Pago en línea:* Envío de un correo por transacción completada para registro de pago del cliente.
-- *Traducción:* Traducción de la página en el idioma de preferencia para los clientes.
 
 ## Objetivos
 
