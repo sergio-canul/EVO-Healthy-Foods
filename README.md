@@ -1,7 +1,5 @@
 <h1 aling="center">Healthy Foods</h1>
 
-Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en software.
-
 ## Integrantes
 
 ```md
@@ -16,9 +14,9 @@ Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en softw
 
 ```
 
-# Fit Foods
+# EVO HEALTHY FOODS
 
-*Fit Foods* es una empresa dedicada a la producción y entrega de comida saludable, ubicada en Dzemul, Yucatán, México. Nuestra misión es proporcionar alimentos nutritivos y de alta calidad que mejoren la salud y bienestar de nuestros clientes, ayudándoles a llevar una vida más saludable.
+*EVO Healthy Foods* es una empresa dedicada a la producción y entrega de comida saludable, ubicada en Dzemul, Yucatán, México. Nuestra misión es proporcionar alimentos nutritivos y de alta calidad que mejoren la salud y bienestar de nuestros clientes, ayudándoles a llevar una vida más saludable.
 
 ## Visión
 
