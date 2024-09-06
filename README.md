@@ -69,6 +69,10 @@ EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y
 ## Requerimientos del Sistema
 EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestros usuarios sean conscientes de los requerimientos principales del sistema, por eso se encuentran dividido en funcionales y no funcionales.
 
-### Requerimientos Funcionales
+## Requerimientos Funcionales
 ### RF-001
 El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
+
+## Requerimientos No Funcionales
+### Requerimientos del Producto
+Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
