@@ -1,3 +1,4 @@
+
 <h1 aling="center">Healthy Foods</h1>
 
 Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en software.
@@ -16,6 +17,8 @@ Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en softw
   - [Plan de Sostenibilidad](#plan-de-sostenibilidad)
   - [Impacto Social](#impacto-social)
 - [Requerimientos](#requerimientos)
+=======
+<h1 aling="center"> EVO Healthy Foods</h1>
 
 ## Integrantes
 
@@ -31,9 +34,13 @@ Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en softw
 
 ```
 
-# Fit Foods
 
-*Fit Foods* es una empresa dedicada a la producción y entrega de comida saludable, ubicada en Dzemul, Yucatán, México. Nuestra misión es proporcionar alimentos nutritivos y de alta calidad que mejoren la salud y bienestar de nuestros clientes, ayudándoles a llevar una vida más saludable.
+# Descripción de la empresa
+
+*EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
+Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales,
+de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
+pero al mismo tiempo mantener precios asequibles.
 
 ## Visión
 
@@ -47,7 +54,8 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 
 ## Servicios
 
-Fit Foods ofrece una variedad de servicios centrados en la producción y distribución de alimentos saludables:
+EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y distribución de alimentos saludables:
+
 
 - *Producción y Cocina:* Elaboración de comidas saludables con ingredientes frescos y de alta calidad.
 - *Entrega a Domicilio:* Servicio de entrega rápida y eficiente, asegurando que nuestros productos lleguen frescos a nuestros clientes.
@@ -79,17 +87,3 @@ Fit Foods ofrece una variedad de servicios centrados en la producción y distrib
 4. *Logística y Distribución:* Coordinación del transporte y entrega de productos.
 5. *Atención al Cliente:* Soporte al cliente y gestión de pedidos.
 
-## Plan de Sostenibilidad
-
-En caso de contingencias, Fit Foods cuenta con planes para garantizar la continuidad de operaciones, incluyendo el uso de paneles solares, aseguramiento del local y protocolos de seguridad laboral.
-
-## Impacto Social
-
-Fit Foods busca contribuir a la sociedad a través de la generación de empleo y la promoción de una vida saludable. También ofrecemos asesoramiento nutricional gratuito y descuentos especiales para personas en situación de pobreza.
-
----
-
-*Fit Foods* es una *Sociedad de Responsabilidad Limitada (SRL)* con un capital social de $500,000 MXN, operando a nivel local en Dzemul, Yucatán.
-
-
-# Requerimientos
