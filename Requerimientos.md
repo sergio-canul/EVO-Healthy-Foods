@@ -31,4 +31,4 @@ El sistema deberá tener un traductor para permitirle al usuario cambiar el idio
 ### Requerimientos de la entrega a domicilio
 El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 ### Requerimientos de la base de datos
-El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
+El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
