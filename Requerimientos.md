@@ -22,6 +22,8 @@ El sistema mostrara los contenidos nutricionales del producto cada vez que el cl
 ### RF-007
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### RF-008
+El sistema mostrará las comidas disponibles en el primer plano.
+### RF-009
 El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos no Funcionales
 ### Requerimientos del Producto
