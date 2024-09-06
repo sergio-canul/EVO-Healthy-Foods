@@ -72,7 +72,14 @@ EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestr
 ## Requerimientos Funcionales
 ### RF-001
 El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
-
+### RF-006
+El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
+### RF-007
+El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
+### Requerimientos de Seguridad
+La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+## Requerimientos de Compatibilidad
+El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
