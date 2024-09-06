@@ -26,19 +26,17 @@ El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos no Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por paypal, Transferencia Bancaria u OXXO.
-### Requerimientos de la página
+### Requerimientos de la Página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
-### Requerimientos de la entrega a domicilio
+### Requerimientos de la entrega a Domicilio
 El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
-### Requerimientos de la base de datos
+### Requerimientos de la Base de Datos
 El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
-### Requerimiento de actualizacion de productos
+### Requerimiento de Actualizacion de Productos
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
-### Requerimientos de espera
+### Requerimientos de Espera
 El sistema calculará el tiempo de entrega en base a la cantidad de pedidos y repartidores disponibles.
-### Requerimientos de la base de datos
-El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
-### Requerimientos de seguridad
+### Requerimientos de Seguridad
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 ## Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
