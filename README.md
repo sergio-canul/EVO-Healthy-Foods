@@ -65,3 +65,10 @@ EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y
 4. *Logística y Distribución:* Coordinación del transporte y entrega de productos.
 5. *Atención al Cliente:* Soporte al cliente y gestión de pedidos.
 
+# Requerimientos 
+## Requerimientos del Sistema
+EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestros usuarios sean conscientes de los requerimientos principales del sistema, por eso se encuentran dividido en funcionales y no funcionales.
+
+### Requerimientos Funcionales
+### RF-001
+El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
