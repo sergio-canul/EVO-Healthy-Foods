@@ -2,6 +2,21 @@
 
 Este es un nuevo proyecto para la materia de Fundamentos de Ingeniería en software.
 
+# Índice
+- [Índice](#índice)
+  - [Integrantes](#integrantes)
+- [Fit Foods](#fit-foods)
+  - [Visión](#visión)
+  - [Valores](#valores)
+  - [Servicios](#servicios)
+  - [Objetivos](#objetivos)
+  - [Estrategias](#estrategias)
+  - [Políticas](#políticas)
+  - [Áreas Funcionales](#áreas-funcionales)
+  - [Plan de Sostenibilidad](#plan-de-sostenibilidad)
+  - [Impacto Social](#impacto-social)
+- [Requerimientos](#requerimientos)
+
 ## Integrantes
 
 ```md
@@ -75,3 +90,6 @@ Fit Foods busca contribuir a la sociedad a través de la generación de empleo y
 ---
 
 *Fit Foods* es una *Sociedad de Responsabilidad Limitada (SRL)* con un capital social de $500,000 MXN, operando a nivel local en Dzemul, Yucatán.
+
+
+# Requerimientos
