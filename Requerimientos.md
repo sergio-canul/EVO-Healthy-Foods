@@ -32,5 +32,7 @@ Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto co
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega a domicilio
 El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+### Requerimientos de la base de datos
+El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
 ### Requerimiento de actualizacion de productos
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
