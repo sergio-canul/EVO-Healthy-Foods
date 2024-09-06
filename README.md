@@ -81,5 +81,5 @@ El usuario podra hacer uso de un carrito de compras al cual podra agregar todos 
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
 ### Requerimientos de Seguridad
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
-## Requerimientos de Compatibilidad
+### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
