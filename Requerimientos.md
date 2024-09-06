@@ -9,11 +9,9 @@ El sistema deberá reconocer de manera efectiva el correo y contraseña del usua
 ### RF-002
 El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
 ### RF-003
-El sistema hará gestión de los pedidos para coordinar la entrega rápida y eficiente de pedidos, con seguimiento en tiempo real para los clientes.
+El sistema gestionará los pedidos para asegurar una coordinación eficiente y rápida en su entrega, proporcionando seguimiento en tiempo real para los clientes.
 ### RF-004
-> **Rutas** 
-El repartidor podrá visualizar la dirección y rutas del destino al cual deberán entregar el producto, mostrandole la ruta más eficiente basada en las direcciones de los pedidos.
-El cliente deberá visualizar el recorrido que tiene su pedido desde el momento de su pedido hasta su entrega.
+El repartidor tendrá la capacidad de visualizar las direcciones y rutas de los destinos de entrega, mostrándole la ruta más eficiente en función de las direcciones de los pedidos. El cliente podrá seguir el recorrido de su pedido desde el momento en que se realiza hasta su entrega final.
 ### RF-005
 > **Auditorias**
 El personal de areas relacionadas al marketing o finanzas, podrán visualizar los datos relacionados a los ingresos y egresos que se tiene en determinado periodo de tiempo, así como la tendencia basada en el tipo de productos que se compran.
