@@ -21,12 +21,26 @@ El sistema mostrara los contenidos nutricionales del producto cada vez que el cl
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### RF-008
 El sistema mostrará las comidas disponibles en el primer plano.
+<<<<< Benjamin-Poot
+### RF-009
+El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
+=======
+>>>>>> main
 ## Requerimientos no Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por paypal, Transferencia Bancaria u OXXO.
 ### Requerimientos de la página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
+<<<<<< Benjamin-Poot
+### Requerimientos de la entrega a domicilio
+El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+### Requerimientos de la base de datos
+El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
+### Requerimiento de actualizacion de productos
+El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
+=======
 ### Requerimientos de espera
 El sistema calculará el tiempo de entrega en base a la cantidad de pedidos y repartidores disponibles.
 ### Requerimientos de la base de datos
 El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
+>>>>>> main
