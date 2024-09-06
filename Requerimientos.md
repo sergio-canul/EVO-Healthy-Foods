@@ -40,6 +40,6 @@ El sistema calculará el tiempo de entrega en base a la cantidad de pedidos y re
 El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas, que sólo serán accesibles para la empresa.
 ### Requerimientos de seguridad
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
-## Requerimientos de Compatibilidad
+### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 

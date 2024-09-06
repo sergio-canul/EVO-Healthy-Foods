@@ -64,4 +64,11 @@ EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y
 3. *Marketing y Ventas:* Desarrollo de estrategias de marketing y gestión de ventas.
 4. *Logística y Distribución:* Coordinación del transporte y entrega de productos.
 5. *Atención al Cliente:* Soporte al cliente y gestión de pedidos.
-
+### RF-006
+El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
+### RF-007
+El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
+### Requerimientos de seguridad
+La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+### Requerimientos de Compatibilidad
+El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
