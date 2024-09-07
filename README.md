@@ -74,6 +74,8 @@ EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestr
 El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
 ### RF-002
 El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
+### RF-003
+El sistema gestionará los pedidos para asegurar una coordinación eficiente y rápida en su entrega, proporcionando seguimiento en tiempo real para los clientes.
 ### RF-006
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
@@ -89,5 +91,7 @@ La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptaci
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ### Requerimientos de la página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
+### Requerimientos de la entrega
+El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 ### Requerimientos de la base de datos
 El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
