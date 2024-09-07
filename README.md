@@ -74,6 +74,8 @@ EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestr
 El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
 ### RF-002
 El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
+### RF-003
+El sistema gestionará los pedidos para asegurar una coordinación eficiente y rápida en su entrega, proporcionando seguimiento en tiempo real para los clientes.
 ### RF-006
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
