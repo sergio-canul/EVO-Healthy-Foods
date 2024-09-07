@@ -76,6 +76,8 @@ El sistema deberá reconocer de manera efectiva el correo y contraseña del usua
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
+### RF-008
+El sistema mostrará las comidas disponibles en el primer plano.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -83,3 +85,5 @@ Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto co
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 ### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
+### Requerimientos de la base de datos
+El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
