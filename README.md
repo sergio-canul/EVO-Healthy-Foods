@@ -76,6 +76,10 @@ El sistema deberá reconocer de manera efectiva el correo y contraseña del usua
 El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
 ### RF-003
 El sistema gestionará los pedidos para asegurar una coordinación eficiente y rápida en su entrega, proporcionando seguimiento en tiempo real para los clientes.
+### RF-004
+El repartidor podrá visualizar la ruta más óptima para entregar el producto al cliente, así mismo el cliente deberá ser capaz de visualizar el seguimiento del paquete hasta su entrega.
+### RF-005
+
 ### RF-006
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
