@@ -79,7 +79,7 @@ El sistema gestionará los pedidos para asegurar una coordinación eficiente y r
 ### RF-004
 El repartidor podrá visualizar la ruta más óptima para entregar el producto al cliente, así mismo el cliente deberá ser capaz de visualizar el seguimiento del paquete hasta su entrega.
 ### RF-005
-
+El sistema proporcionará una visualización de los ingresos y egresos que se tienen en determinados periodos de tiempo, con las vistas requeridas para una auditoría financiera, bajo usuarios con niveles de acceso específicos 
 ### RF-006
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
