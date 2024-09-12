@@ -86,6 +86,10 @@ El sistema mostrara los contenidos nutricionales del producto cada vez que el cl
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### RF-008
 El sistema mostrará las comidas disponibles en el primer plano.
+### RF-009
+El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
+### RF-010
+El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
