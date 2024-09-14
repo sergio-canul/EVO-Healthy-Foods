@@ -102,6 +102,8 @@ El sistema deberá tener un traductor para permitirle al usuario cambiar el idio
 ### Requerimientos de la entrega
 * El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 * Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, el status de entrega.
+### Requerimientos de ubicación
+El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
