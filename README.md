@@ -179,13 +179,17 @@ El sistema gestionará los pedidos para asegurar una coordinación eficiente y r
 ### RF-004
 El repartidor podrá visualizar la ruta más óptima para entregar el producto al cliente, así mismo el cliente deberá ser capaz de visualizar el seguimiento del paquete hasta su entrega.
 ### RF-005
-
+El sistema proporcionará una visualización de los ingresos y egresos que se tienen en determinados periodos de tiempo, con las vistas requeridas para una auditoría financiera, bajo usuarios con niveles de acceso específicos 
 ### RF-006
 El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
 ### RF-007
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### RF-008
 El sistema mostrará las comidas disponibles en el primer plano.
+### RF-009
+El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
+### RF-010
+El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -196,8 +200,12 @@ El sistema debe ser compatible tanto en dispositivos moviles como en PC's con di
 ### Requerimientos de la página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega
-El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+* El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+* Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, el status de entrega.
+### Requerimientos de ubicación
+El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
+
 El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 
 # Restricciones e implementación
@@ -248,3 +256,7 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
    > Aplicaciones nuevas, como [Nutrium](https://nutrium.com/es), luchan por diferenciarse de gigantes ya establecidos y ganarse la confianza del usuario. Este entorno competitivo hace difícil captar una base de usuarios significativa sin una propuesta de valor claramente diferenciada o una inversión significativa en marketing.
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
+=======
+* El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
+* El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
+
