@@ -21,6 +21,16 @@ Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta d
 de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
 pero al mismo tiempo mantener precios asequibles.
 
+## Perspectiva del producto
+- Funcionalidad.- Los productos, alimentos o snacks deben estar bajo en azúcares y altos en fibra, satisfaciendo el hambre sin perjudicar o compremeter la salud.
+- Diseño.- Los productos tendran un empaque atractivo y funcional que sea fácil de llevar, con información clara sobre los ingredientes y beneficios nutricionales.
+- Mercado.- Nuestro producto tiene el mercado dirigido a personas activas y conscientes de su salud, utilizando redes sociales y marketing digital para conectar con su audiencia.
+- Costos.- La empresa realiza un análisis de costos para asegurarse de que el precio de venta cubra los costos de producción y marketing, sin perder competitividad frente a otras marcas.
+- Sostenibilidad.- Nuestros productos hacen uso de ingredientes orgánicos y empaques biodegradables, así como prácticas de producción que minimizan el impacto ambiental.
+
+## Propósito
+El proposito de la empresa es proporcionar opciones de comida saludable, rica y accesible a todos, fomentando un estilo de vida equilibrado y sano.
+
 ## Visión
 
 Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
