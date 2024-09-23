@@ -1,4 +1,4 @@
-<h1 aling="center"> EVO Healthy Foods</h1>
+# EVO Healthy Foods
 
 ## Integrantes
 
@@ -141,6 +141,28 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
 Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
 
+## Caracteristicas del producto
+
+ 1. Pagina web con un diseño atractivo
+    ```md
+     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
+     - Debe mostrar información clara sobre los valores de la empresa
+     - Debe ser una pagina web facil de darle mantenimiento
+    ```
+ 2. Catalogo de productos
+    ```md
+     - Listado de todos los productos
+     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
+     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
+    ```
+ 3. Funcionalidad de pedidos en linea 
+    ```md
+     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
+     - Se integrará con plataformas de pago seguras 
+     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
+    ```
+
+    
 # Requerimientos 
 ## Requerimientos del Sistema
 EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestros usuarios sean conscientes de los requerimientos principales del sistema, por eso se encuentran dividido en funcionales y no funcionales.
