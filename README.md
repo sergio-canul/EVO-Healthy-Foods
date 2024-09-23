@@ -136,6 +136,10 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 > 
 > Martín, I. S. M., Fernández, M. G., & Yurrita, L. C. (2014). [Mobile applications for nutrition, dietetics and healthy habits; analysis and consequences of an increasing trend]. DOAJ (DOAJ: Directory of Open Access Journals), 30(1), 15–24. https://doi.org/10.3305/nh.2014.30.1.7398
 
+## Audiencia y Alcance
+
+Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
+Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
 
 # Requerimientos 
 ## Requerimientos del Sistema
