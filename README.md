@@ -15,6 +15,11 @@
 ```
 # Tabla de contenido
 - [Tabla de contenido](#tabla-de-contenido)
+- [Descripción de la empresa](#descripción-de-la-empresa)
+  - [Visión](#visión)
+  - [Valores](#valores)
+  - [Objetivos](#objetivos)
+  - [Políticas](#políticas)
 - [Restricciones e implementación](#restricciones-e-implementación)
   - [Nutricional](#nutricional)
   - [Entrega a domicilio](#entrega-a-domicilio)
@@ -24,14 +29,6 @@
     - [Repartidores](#repartidores)
 - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
 - [Referencias](#referencias)
-- [Descripción de la empresa](#descripción-de-la-empresa)
-  - [Visión](#visión)
-  - [Valores](#valores)
-  - [Servicios](#servicios)
-  - [Objetivos](#objetivos)
-  - [Estrategias](#estrategias)
-  - [Políticas](#políticas)
-  - [Áreas Funcionales](#áreas-funcionales)
 - [Requerimientos](#requerimientos)
   - [Requerimientos del Sistema](#requerimientos-del-sistema)
   - [Requerimientos Funcionales](#requerimientos-funcionales)
@@ -54,6 +51,34 @@
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
 
+# Descripción de la empresa
+
+*EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
+Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales,
+de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
+pero al mismo tiempo mantener precios asequibles.
+
+## Visión
+
+Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
+
+## Valores
+
+- *Mejora continua:* Nos comprometemos a mejorar constantemente la calidad de nuestros productos y servicios.
+- *Responsabilidad nutricional:* Ofrecemos alimentos que contribuyen positivamente a la salud de nuestros clientes.
+- *Inclusión y equidad:* Nos esforzamos por incluir y apoyar a personas que han sido marginadas en el mercado laboral.
+
+## Objetivos
+
+1. Mejorar la dieta y salud de la población mediante la provisión de alimentos saludables.
+2. Convertirnos en una de las mejores empresas de comida saludable en el estado de Yucatán.
+
+## Políticas
+
+- Cumplimiento de normas sanitarias y estándares de calidad.
+- Transparencia en la comunicación interna y externa.
+- Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
+- Diversidad e inclusión en la fuerza laboral.
 
 # Restricciones e implementación
 Las aplicaciones de comida y delivery tienen diversas implicaciones y restricciones dependiendo del enfoque al cual se pretenda enfocar
@@ -110,56 +135,7 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 > traqfood. (2024, June 12). “Food app”: Una tendencia en auge – traqfood. Traqfood. https://www.traqfood.com/es/blog/noticias-de-catering/article/food-app-una-tendencia-en-auge/
 > 
 > Martín, I. S. M., Fernández, M. G., & Yurrita, L. C. (2014). [Mobile applications for nutrition, dietetics and healthy habits; analysis and consequences of an increasing trend]. DOAJ (DOAJ: Directory of Open Access Journals), 30(1), 15–24. https://doi.org/10.3305/nh.2014.30.1.7398
-# Descripción de la empresa
 
-*EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
-Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales,
-de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
-pero al mismo tiempo mantener precios asequibles.
-
-## Visión
-
-Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
-
-## Valores
-
-- *Mejora continua:* Nos comprometemos a mejorar constantemente la calidad de nuestros productos y servicios.
-- *Responsabilidad nutricional:* Ofrecemos alimentos que contribuyen positivamente a la salud de nuestros clientes.
-- *Inclusión y equidad:* Nos esforzamos por incluir y apoyar a personas que han sido marginadas en el mercado laboral.
-
-## Servicios
-
-EVO Healthy Foods ofrece una variedad de servicios centrados en la producción y distribución de alimentos saludables:
-
-- *Producción y Cocina:* Elaboración de comidas saludables con ingredientes frescos y de alta calidad.
-- *Entrega a Domicilio:* Servicio de entrega rápida y eficiente, asegurando que nuestros productos lleguen frescos a nuestros clientes.
-- *Atención al Cliente:* Gestión de pedidos, consultas y resolución de quejas para garantizar la satisfacción del cliente.
-
-## Objetivos
-
-1. Mejorar la dieta y salud de la población mediante la provisión de alimentos saludables.
-2. Convertirnos en una de las mejores empresas de comida saludable en el estado de Yucatán.
-
-## Estrategias
-
-- Desarrollo de un menú variado y nutritivo.
-- Contratación de proveedores confiables para asegurar la calidad de nuestros productos.
-- Implementación de campañas de marketing efectivas para aumentar las ventas.
-
-## Políticas
-
-- Cumplimiento de normas sanitarias y estándares de calidad.
-- Transparencia en la comunicación interna y externa.
-- Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
-- Diversidad e inclusión en la fuerza laboral.
-
-## Áreas Funcionales
-
-1. *Finanzas y Contabilidad:* Gestión de presupuestos, control de costos y cumplimiento normativo.
-2. *Producción y Compras:* Supervisión de la preparación de alimentos y adquisición de ingredientes.
-3. *Marketing y Ventas:* Desarrollo de estrategias de marketing y gestión de ventas.
-4. *Logística y Distribución:* Coordinación del transporte y entrega de productos.
-5. *Atención al Cliente:* Soporte al cliente y gestión de pedidos.
 
 # Requerimientos 
 ## Requerimientos del Sistema
