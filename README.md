@@ -90,6 +90,19 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
 - Diversidad e inclusión en la fuerza laboral.
 
+# Clases y características de usuario
+## Cliente:
+1.- Registro, inicio de sesión y gestión de su perfil.
+2.- Capacidad de agregar productos al carrito, realizar compras y recibir promociones.
+3.- Visualización del estado de sus pedidos en tiempo real y acceso al historial de pedidos.
+## Administrador del sistema:
+1.- Gestión de usuarios, productos, pedidos e inventarios.
+2.- Acceso a auditorías e informes financieros.
+3.- Control de permisos y niveles de acceso para otros usuarios.
+## Repartidor:
+1.-Visualización de pedidos asignados y rutas óptimas de entrega.
+2.-Actualización del estado de los pedidos (en camino, entregado).
+
 # Restricciones e implementación
 Las aplicaciones de comida y delivery tienen diversas implicaciones y restricciones dependiendo del enfoque al cual se pretenda enfocar
 
