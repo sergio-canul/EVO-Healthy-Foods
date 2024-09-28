@@ -227,7 +227,6 @@ Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mér
 * Se cumplirá con las regulaciones éticas y sanitarias.
 * Se venderán los alimentos de manera en linea tanto en las tiendas físicas como en los pedidos de la página.
 * Los pedidos tendrán alimentos en buen estado a toda la ciudad de mérida.
-* Se realizarán analisis de datos en las ventas y retroalimentaciones de mercado.
 * Le llegarán los pedidos de manera adecuada a cada usuario.
 
 ### Factores Internos
@@ -236,6 +235,7 @@ Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mér
 * Equipo de marketing para llevar la publicidad de la empresa en todo el estado.
 * Ingenieros de software competentes para el cuidado de la base de datos y la realización del back-end y front-end de la página.
 * Buena gestión de la página web y un buen diseño publicitario.
+* Se realizarán analisis de datos en las ventas y retroalimentaciones de mercado.
 
 # Requerimientos 
 ## Requerimientos del Sistema
