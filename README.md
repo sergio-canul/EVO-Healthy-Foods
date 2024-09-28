@@ -51,7 +51,7 @@
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
 
-# Descripción de la empresa
+# Descripción de la empresa (Introducción)
 
 *EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
 Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales,
