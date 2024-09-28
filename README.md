@@ -1,4 +1,4 @@
-<h1 aling="center"> EVO Healthy Foods</h1>
+# EVO Healthy Foods
 
 ## Integrantes
 
@@ -51,12 +51,22 @@
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
 
-# Descripción de la empresa
+# Descripción de la empresa (Introducción)
 
 *EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
 Tenemos por objetivo ser una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales,
 de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, 
 pero al mismo tiempo mantener precios asequibles.
+
+## Perspectiva del producto
+- Funcionalidad.- Los productos, alimentos o snacks deben estar bajo en azúcares y altos en fibra, satisfaciendo el hambre sin perjudicar o compremeter la salud.
+- Diseño.- Los productos tendran un empaque atractivo y funcional que sea fácil de llevar, con información clara sobre los ingredientes y beneficios nutricionales.
+- Mercado.- Nuestro producto tiene el mercado dirigido a personas activas y conscientes de su salud, utilizando redes sociales y marketing digital para conectar con su audiencia.
+- Costos.- La empresa realiza un análisis de costos para asegurarse de que el precio de venta cubra los costos de producción y marketing, sin perder competitividad frente a otras marcas.
+- Sostenibilidad.- Nuestros productos hacen uso de ingredientes orgánicos y empaques biodegradables, así como prácticas de producción que minimizan el impacto ambiental.
+
+## Propósito
+El proposito de la empresa es proporcionar opciones de comida saludable, rica y accesible a todos, fomentando un estilo de vida equilibrado y sano.
 
 ## Visión
 
@@ -79,6 +89,19 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Transparencia en la comunicación interna y externa.
 - Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
 - Diversidad e inclusión en la fuerza laboral.
+
+# Clases y características de usuario
+## Cliente:
+1. Registro, inicio de sesión y gestión de su perfil.
+2. Capacidad de agregar productos al carrito, realizar compras y recibir promociones.
+3. Visualización del estado de sus pedidos en tiempo real y acceso al historial de pedidos.
+## Administrador del sistema:
+1. Gestión de usuarios, productos, pedidos e inventarios.
+2. Acceso a auditorías e informes financieros.
+3. Control de permisos y niveles de acceso para otros usuarios.
+## Repartidor:
+1. Visualización de pedidos asignados y rutas óptimas de entrega.
+2. Actualización del estado de los pedidos (en camino, entregado).
 
 # Restricciones e implementación
 Las aplicaciones de comida y delivery tienen diversas implicaciones y restricciones dependiendo del enfoque al cual se pretenda enfocar
@@ -136,7 +159,33 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 > 
 > Martín, I. S. M., Fernández, M. G., & Yurrita, L. C. (2014). [Mobile applications for nutrition, dietetics and healthy habits; analysis and consequences of an increasing trend]. DOAJ (DOAJ: Directory of Open Access Journals), 30(1), 15–24. https://doi.org/10.3305/nh.2014.30.1.7398
 
+## Audiencia y Alcance
 
+Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
+Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
+
+## Caracteristicas del producto
+
+ 1. Pagina web con un diseño atractivo
+    ```md
+     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
+     - Debe mostrar información clara sobre los valores de la empresa
+     - Debe ser una pagina web facil de darle mantenimiento
+    ```
+ 2. Catalogo de productos
+    ```md
+     - Listado de todos los productos
+     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
+     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
+    ```
+ 3. Funcionalidad de pedidos en linea 
+    ```md
+     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
+     - Se integrará con plataformas de pago seguras 
+     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
+    ```
+
+    
 # Requerimientos 
 ## Requerimientos del Sistema
 EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestros usuarios sean conscientes de los requerimientos principales del sistema, por eso se encuentran dividido en funcionales y no funcionales.
