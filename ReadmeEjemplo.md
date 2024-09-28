@@ -1,74 +1,3 @@
-# EVO Healthy Foods
-
-## Integrantes
-
-```md
-
-  1. Sergio Canul (PM)
-  2. Ricardo Maas (QA)
-  3. Edrei Lizama (DEV)
-  4. Alejandro Flores (DEV)
-  5. Diego Pinzon (DEV)
-  6. Gioser Dzib (DEV)
-  7. Angel Pat (DEV)
-
-```
-# Tabla de contenido
-- [EVO Healthy Foods](#evo-healthy-foods)
-  - [Integrantes](#integrantes)
-- [Tabla de contenido](#tabla-de-contenido)
-- [Introducción](#introducción)
-  - [Propósito](#propósito)
-  - [Visión](#visión)
-  - [Valores](#valores)
-  - [Objetivos](#objetivos)
-  - [Políticas](#políticas)
-  - [Referencias](#referencias)
-- [Descripción del Proyecto](#descripción-del-proyecto)
-  - [Perspectiva del producto](#perspectiva-del-producto-1)
-  - [Clases y características de usuario](#clases-y-características-de-usuario)
-    - [Cliente:](#cliente)
-    - [Administrador del sistema:](#administrador-del-sistema)
-    - [Repartidor:](#repartidor)
-  - [Ambiente de operación](#ambiente-de-operación)
-    - [Sociales](#sociales)
-    - [Psicologicos](#psicologicos)
-    - [Infraestructura](#infraestructura)
-  - [Restricciones e implementación](#restricciones-e-implementación)
-    - [Nutricional](#nutricional)
-    - [Entrega a domicilio](#entrega-a-domicilio)
-    - [Implicaciones con los usuarios](#implicaciones-con-los-usuarios)
-    - [Los clientes](#los-clientes)
-    - [El personal interno](#el-personal-interno)
-    - [Repartidores](#repartidores)
-    - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
-  - [Audiencia y Alcance](#audiencia-y-alcance)
-  - [Caracteristicas del producto](#caracteristicas-del-producto)
-  - [Suposiciones y dependencias](#suposiciones-y-dependencias)
-    - [Factores Externos](#factores-externos)
-    - [Factores Internos](#factores-internos)
-- [Requerimientos](#requerimientos)
-  - [Requerimientos del Sistema](#requerimientos-del-sistema)
-  - [Requerimientos Funcionales](#requerimientos-funcionales)
-    - [RF-001](#rf-001)
-    - [RF-002](#rf-002)
-    - [RF-003](#rf-003)
-    - [RF-004](#rf-004)
-    - [RF-005](#rf-005)
-    - [RF-006](#rf-006)
-    - [RF-007](#rf-007)
-    - [RF-008](#rf-008)
-    - [RF-009](#rf-009)
-    - [RF-010](#rf-010)
-  - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
-    - [Requerimientos del Producto](#requerimientos-del-producto)
-    - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
-    - [Requerimientos de Compatibilidad](#requerimientos-de-compatibilidad)
-    - [Requerimientos de la página](#requerimientos-de-la-página)
-    - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
-    - [Requerimientos de ubicación](#requerimientos-de-ubicación)
-    - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
-
 # Introducción
 
 *EVO Healthy Foods* es una empresa que tiene por objetivo establecerse como la primera empresa en linea con la temática de "Comida Saludable" en Mérida, Yucatán. 
@@ -105,52 +34,26 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
 - Diversidad e inclusión en la fuerza laboral.
 
-## Referencias
-> Marketing. (2022, January 31). Pasos para implementar el delivery en tu negocio - Cashlogy. Cashlogy. https://cashlogy.com/es/pasos-implementar-delivery-tu-negocio/
-> 
-> Palacios, C., & Palacios, C. (n.d.). Uso de aplicaciones móviles para intervenciones nutricionales. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522020000200177
-> 
-> traqfood. (2024, June 12). “Food app”: Una tendencia en auge – traqfood. Traqfood. https://www.traqfood.com/es/blog/noticias-de-catering/article/food-app-una-tendencia-en-auge/
-> 
-> Martín, I. S. M., Fernández, M. G., & Yurrita, L. C. (2014). [Mobile applications for nutrition, dietetics and healthy habits; analysis and consequences of an increasing trend]. DOAJ (DOAJ: Directory of Open Access Journals), 30(1), 15–24. https://doi.org/10.3305/nh.2014.30.1.7398
-
 # Descripción del Proyecto
    Este proyecto esta pensado para crear una empresa de alta eficiencia en producción y venta de alimentos saludables para los comensales, de igual forma contar con un amplio catalogo de suplementos alimenticios saludables con una visión expansionista e innovadora del mercado, al mismo tiempo mantener precios asequibles para toda la población.
 
-## Perspectiva del producto
-
-
-## Clases y características de usuario
-### Cliente:
+# Clases y características de usuario
+## Cliente:
 1. Registro, inicio de sesión y gestión de su perfil.
 2. Capacidad de agregar productos al carrito, realizar compras y recibir promociones.
 3. Visualización del estado de sus pedidos en tiempo real y acceso al historial de pedidos.
-### Administrador del sistema:
+## Administrador del sistema:
 1. Gestión de usuarios, productos, pedidos e inventarios.
 2. Acceso a auditorías e informes financieros.
 3. Control de permisos y niveles de acceso para otros usuarios.
-### Repartidor:
+## Repartidor:
 1. Visualización de pedidos asignados y rutas óptimas de entrega.
 2. Actualización del estado de los pedidos (en camino, entregado).
 
-## Ambiente de operación
-### Sociales
-* Evitar actos de discriminación, racismo o clasismo.
-* Ambiente tranquilo libre de conflictos.
-### Psicologicos
-* Control de la productividad de los trabajadores para evitar bornout.
-* Cuidado de las emociones.
-* Reducción de estrés.
-### Infraestructura
-* Temperatura laboral adecuada.
-* Optima iluminación.
-* Circulación de aire.
-
-
-## Restricciones e implementación
+# Restricciones e implementación
 Las aplicaciones de comida y delivery tienen diversas implicaciones y restricciones dependiendo del enfoque al cual se pretenda enfocar
 
-### Nutricional
+## Nutricional
 *Implementación de dietas para una salud óptima basadas en alimentos nutritivos y adaptadas a las preferencias del usuario*
 
 El enfoque nutricional adecuado debe adaptarse a las necesidades individuales de cada usuario, ya que las recomendaciones generalizadas suelen no ser efectivas y pueden generar contradicciones y problemas. En este contexto, las aplicaciones móviles de intervención nutricional enfrentan retos significativos, especialmente en términos de personalización y adherencia del usuario. 
@@ -162,12 +65,13 @@ Las aplicaciones que optan por menús de comidas predefinidas suelen ser más ef
 El público objetivo principal de estas aplicaciones suelen ser jóvenes y adultos jóvenes, un segmento que se siente atraído por la conveniencia de las soluciones digitales y la personalización de servicios. A medida que se continúan desarrollando estas aplicaciones, es esencial enfocar esfuerzos en mejorar la experiencia de uso, la integración de retroalimentación y el apoyo social para maximizar el impacto positivo en los patrones alimenticios y la salud de los usuarios.
 
 
-### Entrega a domicilio
+
+## Entrega a domicilio
 El delivery enfrenta grandes problemas de logística que deben plantearse con anticipación y están limitados por rutas y lugares de entrega.
 
 El éxito del servicio de entrega a domicilio depende de la planificación logística adecuada, que incluye la elección del modelo de delivery, la adaptación del menú y el uso de un empaque adecuado. Es fundamental establecer tiempos de entrega precisos y dar visibilidad a los clientes sobre el estado de sus pedidos.
 
-### Implicaciones con los usuarios
+# Implicaciones con los usuarios
 md
 Los usuarios como actores principales son los productores, los repartidores y los consumidores. Cada tipo de usuario tiene diferentes requisitos o los mismos pero con diferencias, de igual forma existen ciertos tipo de usuarios especificos como auditores o similares; las complicaciones se dan si el origen se vuelve una empresa "Centralizada" de cierta forma, similar a una cadena de comida similar a McDonal, o si es "Distribuida" similar a Uber.
 
@@ -180,7 +84,7 @@ Los cocineros deben contar con utensilios y materias primas, así como cumplir c
 ### Repartidores
 El transporte y la orientación son cruciales, ya que se requieren vehículos y una visualización clara de los destinos para realizar entregas en los tiempos estipulados. La formación de los repartidores en la atención al cliente y en el manejo de los productos es esencial para asegurar la satisfacción del cliente.
 
-### Problemas de negocio y derivados
+# Problemas de negocio y derivados
 1. *Baja Adherencia del Usuario*: La baja retención de usuarios reduce el impacto a largo plazo y la sostenibilidad financiera de las aplicaciones nutricionales, este problema se relaciona con la fatiga de registrar constantemente la ingesta de alimentos o la percepción de que la aplicación ya no aporta valor. 
    > *Ejemplo*: Aplicaciones como [MyFitnessPal](https://www.myfitnesspal.com/es) muestran una caída en el uso tras el primer mes, lo cual disminuye su efectividad en promover cambios sostenibles y afecta la retención de usuarios, reduciendo los ingresos potenciales de suscripciones o anuncios.
 2. *Falta de Retroalimentación y Personalización*: La falta de personalización y retroalimentación en tiempo real disminuye el compromiso del usuario y dificulta la diferenciación en el mercado.
@@ -193,6 +97,14 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
    > Aplicaciones nuevas, como [Nutrium](https://nutrium.com/es), luchan por diferenciarse de gigantes ya establecidos y ganarse la confianza del usuario. Este entorno competitivo hace difícil captar una base de usuarios significativa sin una propuesta de valor claramente diferenciada o una inversión significativa en marketing.
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
+# Referencias
+> Marketing. (2022, January 31). Pasos para implementar el delivery en tu negocio - Cashlogy. Cashlogy. https://cashlogy.com/es/pasos-implementar-delivery-tu-negocio/
+> 
+> Palacios, C., & Palacios, C. (n.d.). Uso de aplicaciones móviles para intervenciones nutricionales. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-07522020000200177
+> 
+> traqfood. (2024, June 12). “Food app”: Una tendencia en auge – traqfood. Traqfood. https://www.traqfood.com/es/blog/noticias-de-catering/article/food-app-una-tendencia-en-auge/
+> 
+> Martín, I. S. M., Fernández, M. G., & Yurrita, L. C. (2014). [Mobile applications for nutrition, dietetics and healthy habits; analysis and consequences of an increasing trend]. DOAJ (DOAJ: Directory of Open Access Journals), 30(1), 15–24. https://doi.org/10.3305/nh.2014.30.1.7398
 
 ## Audiencia y Alcance
 
@@ -220,19 +132,7 @@ Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mér
      - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
     ```
 
-## Suposiciones y dependencias
-### Factores Externos
-* Tendencias de alimentación del mercado y redes sociales.
-* Cumplimiento de regulaciones sanitarias.
-* Revión de las competencias directas.
-* Cumplimiento de las leyes adecuadamente del país.
-
-### Factores Internos
-* Personal competente, chefs, nutricionistas, personal al cliente.
-* Sistema de gestión de pedidos y una base de datos adecuada.
-* Equipo de marketing para llevar la publicidad de la empresa en todo el estado.
-* Ingenieros de software competentes para el cuidado de la base de datos y la realización del back-end y front-end de la página.
-
+    
 # Requerimientos 
 ## Requerimientos del Sistema
 EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestros usuarios sean conscientes de los requerimientos principales del sistema, por eso se encuentran dividido en funcionales y no funcionales.
@@ -275,3 +175,4 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
+
