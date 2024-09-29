@@ -117,7 +117,6 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Mercado.- Nuestro producto tiene el mercado dirigido a personas activas y conscientes de su salud, utilizando redes sociales y marketing digital para conectar con su audiencia.
 - Costos.- La empresa realiza un análisis de costos para asegurarse de que el precio de venta cubra los costos de producción y marketing, sin perder competitividad frente a otras marcas.
 - Sostenibilidad.- Nuestros productos hacen uso de ingredientes orgánicos y empaques biodegradables, así como prácticas de producción que minimizan el impacto ambiental.
-
 ## Caracteristicas del producto
 
  1. Pagina web con un diseño atractivo
@@ -138,7 +137,6 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
      - Se integrará con plataformas de pago seguras 
      - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
     ```
-
 ## Clases y características de usuario
 ### Cliente:
 1. Registro, inicio de sesión y gestión de su perfil.
