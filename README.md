@@ -18,7 +18,6 @@
   - [Integrantes](#integrantes)
 - [Tabla de contenido](#tabla-de-contenido)
 - [Introducción](#introducción)
-  - [Perspectiva del producto](#perspectiva-del-producto)
   - [Propósito](#propósito)
   - [Visión](#visión)
   - [Valores](#valores)
