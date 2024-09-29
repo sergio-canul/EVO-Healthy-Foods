@@ -212,9 +212,10 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
 
 ## Audiencia y Alcance
-
-Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
-Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
+### Audiencia
+La audiencia para nuestra marca podría ser general, ya que una dieta saludable, variada y equilibrada es una necesidad básica en todos los humanos. Sin embargo, estamos conscientes de que no todas las personas tienen la oportunidad cuidar de su alimentación por cualquier circunstancia adversa o que algunas personas podrían encontrar problemas a la hora de consumir nuestros productos por situaciones particulares, por lo que apelaremos más que nada a personas que tengan un camino ya trazado en cuanto al entrenamiento físico y cuidado de la alimentación, o quienes estén determinados a incursionarse en él.
+### Alcance
+Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
 
 ## Suposiciones y dependencias
 ### Factores Externos
