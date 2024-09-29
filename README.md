@@ -26,6 +26,7 @@
   - [Referencias](#referencias)
 - [Descripción del Proyecto](#descripción-del-proyecto)
   - [Perspectiva del producto](#perspectiva-del-producto)
+  - [Caracteristicas del producto](#caracteristicas-del-producto)
   - [Clases y características de usuario](#clases-y-características-de-usuario)
     - [Cliente:](#cliente)
     - [Administrador del sistema:](#administrador-del-sistema)
@@ -43,7 +44,6 @@
     - [Repartidores](#repartidores)
     - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
   - [Audiencia y Alcance](#audiencia-y-alcance)
-  - [Caracteristicas del producto](#caracteristicas-del-producto)
   - [Suposiciones y dependencias](#suposiciones-y-dependencias)
     - [Factores Externos](#factores-externos)
     - [Factores Internos](#factores-internos)
@@ -117,7 +117,26 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Mercado.- Nuestro producto tiene el mercado dirigido a personas activas y conscientes de su salud, utilizando redes sociales y marketing digital para conectar con su audiencia.
 - Costos.- La empresa realiza un análisis de costos para asegurarse de que el precio de venta cubra los costos de producción y marketing, sin perder competitividad frente a otras marcas.
 - Sostenibilidad.- Nuestros productos hacen uso de ingredientes orgánicos y empaques biodegradables, así como prácticas de producción que minimizan el impacto ambiental.
+## Caracteristicas del producto
 
+ 1. Pagina web con un diseño atractivo
+    ```md
+     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
+     - Debe mostrar información clara sobre los valores de la empresa
+     - Debe ser una pagina web facil de darle mantenimiento
+    ```
+ 2. Catalogo de productos
+    ```md
+     - Listado de todos los productos
+     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
+     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
+    ```
+ 3. Funcionalidad de pedidos en linea 
+    ```md
+     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
+     - Se integrará con plataformas de pago seguras 
+     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
+    ```
 ## Clases y características de usuario
 ### Cliente:
 1. Registro, inicio de sesión y gestión de su perfil.
@@ -196,27 +215,6 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 
 Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
 Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
-
-## Caracteristicas del producto
-
- 1. Pagina web con un diseño atractivo
-    ```md
-     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
-     - Debe mostrar información clara sobre los valores de la empresa
-     - Debe ser una pagina web facil de darle mantenimiento
-    ```
- 2. Catalogo de productos
-    ```md
-     - Listado de todos los productos
-     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
-     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
-    ```
- 3. Funcionalidad de pedidos en linea 
-    ```md
-     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
-     - Se integrará con plataformas de pago seguras 
-     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
-    ```
 
 ## Suposiciones y dependencias
 ### Factores Externos
