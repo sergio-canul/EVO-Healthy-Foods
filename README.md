@@ -148,7 +148,7 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 * Circulación de aire.
 
 
-## Restricciones e implementación
+## Restricciones e implementaciones
 Las aplicaciones de comida y delivery tienen diversas implicaciones y restricciones dependiendo del enfoque al cual se pretenda enfocar
 
 ### Nutricional
