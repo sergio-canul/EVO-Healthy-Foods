@@ -44,6 +44,20 @@
     - [El personal interno](#el-personal-interno)
     - [Repartidores](#repartidores)
     - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
+  - [Documentacion del usuario](#documentacion-del-usuario)
+    - [Introduccion](#introduccion)
+    - [Requisitos del sistema](#requisitos-del-sistema)
+    - [Registro de usuario](#registro-de-usuario)
+    - [Iniciar sesion](#iniciar-sesion)
+    - [Navegacion en la pagina](#navegacion-en-la-pagina)
+    - [Proceso de compra](#proceso-de-compra)
+    - [Metodos de pago](#metodos-de-pago)
+    - [Seguimiento de pedido](#seguimiento-de-pedido)
+    - [Politicas de devolucion y reembolsos](#politicas-de-devolucion-y-reembolsos)
+    - [Soporte al cliente](#soporte-al-cliente)
+    - [Seguridad y privacidad](#seguridad-y-privacidad)
+    - [Consejos y recomendaciones](#consejos-y-recomendaciones)
+    
   - [Suposiciones y dependencias](#suposiciones-y-dependencias)
     - [Factores Externos](#factores-externos)
     - [Factores Internos](#factores-internos)
@@ -60,6 +74,7 @@
     - [RF-008](#rf-008)
     - [RF-009](#rf-009)
     - [RF-010](#rf-010)
+    - [RF-011](#rf-010)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -68,6 +83,7 @@
     - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
+    - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
 
 # Introducción
 
@@ -204,6 +220,94 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
 
+## Documentacion del usuario
+### Introduccion
+La página web de alimentos saludables ofrece una plataforma en línea donde los usuarios pueden comprar productos frescos, naturales y orgánicos. Nuestro objetivo es promover hábitos alimenticios saludables ofreciendo una variedad de productos que satisfagan las necesidades nutricionales de las personas.
+
+### Requisitos del Sistema
+Navegador: Google Chrome, Mozilla Firefox, Safari o Microsoft Edge (versión más reciente).
+
+Conexión a internet: estable, mínima de 5 Mbps para una experiencia óptima.
+
+Dispositivos compatibles: PC, portátiles, tabletas y teléfonos móviles.
+
+### Registro de Usuario
+Navega a la página principal y haz clic en "Registrarse".
+
+Completa los campos obligatorios como nombre, dirección de correo electrónico y contraseña.
+
+Acepta los términos y condiciones.
+
+Haz clic en "Crear cuenta". Recibirás un correo de confirmación.
+
+Verifica tu cuenta a través del correo electrónico.
+
+### Iniciar Sesion
+En la página principal, selecciona "Iniciar sesión".
+
+Introduce tu correo electrónico y contraseña registrados.
+
+Haz clic en "Ingresar".
+
+### Navegacion en la Pagina
+Inicio: Presenta los productos destacados y las promociones actuales.
+
+Categorías de Productos: Organiza los alimentos saludables en diferentes categorías como frutas, verduras, productos orgánicos, y más.
+
+Búsqueda: Utiliza el cuadro de búsqueda para encontrar productos específicos.
+
+Carrito de Compras: Muestra los productos que el usuario ha agregado para la compra.
+
+### Proceso de Compra
+Navega por las categorías de productos o utiliza la barra de búsqueda para encontrar lo que necesitas.
+Haz clic en el producto deseado para ver sus detalles.
+
+Selecciona la cantidad que deseas comprar y haz clic en "Agregar al carrito".
+
+Una vez hayas agregado todos los productos, haz clic en el icono del carrito de compras.
+
+Revisa los productos en tu carrito y haz clic en "Proceder al pago".
+
+Introduce tus datos de envío y selecciona el método de pago.
+
+Confirma tu pedido y recibirás una confirmación por correo electrónico.
+
+### Metodos de Pago
+Tarjeta de crédito/débito (Visa, Mastercard)
+
+PayPal
+
+Transferencia bancaria
+
+Pago contra entrega (disponible en ciertas ubicaciones)
+
+### Seguimiento de Pedido
+Inicia sesión en tu cuenta.
+
+Ve a "Mis pedidos" en el menú de usuario.
+
+Selecciona el pedido que deseas seguir. Verás el estado de tu pedido (procesando, enviado, entregado).
+
+### Politicas de Devolucion y Reembolsos
+Los productos pueden ser devueltos dentro de los 14 días posteriores a la entrega si no están abiertos ni dañados.
+
+El reembolso se procesará una vez que se confirme la recepción del producto devuelto.
+
+### Soporte al Cliente
+Correo electrónico: soporte@EVO-Healthy-Foods.com
+
+Teléfono: +123 456 7890
+
+Chat en línea: Disponible de lunes a viernes de 9 AM a 6 PM
+
+### Seguridad y Privacidad
+La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+
+### Consejos y Recomendaciones
+Mantén tu perfil actualizado con la dirección correcta para envíos rápidos y precisos.
+
+Suscríbete a nuestro boletín para recibir notificaciones de ofertas especiales y nuevos productos.
+
 ## Suposiciones y dependencias
 ### Factores Externos
 * Se priorizará las tendencias del mercado y redes sociales.
@@ -245,6 +349,8 @@ El sistema mostrará las comidas disponibles en el primer plano.
 El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
+### RF-011
+El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -262,3 +368,5 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
+### Requerimiento de la actualizacion de la pagina
+El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
