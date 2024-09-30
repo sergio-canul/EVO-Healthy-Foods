@@ -46,6 +46,20 @@
     - [El personal interno](#el-personal-interno)
     - [Repartidores](#repartidores)
     - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
+  - [Documentacion del usuario](#documentacion-del-usuario)
+    - [Introduccion](#introduccion)
+    - [Requisitos del sistema](#requisitos-del-sistema)
+    - [Registro de usuario](#registro-de-usuario)
+    - [Iniciar sesion](#iniciar-sesion)
+    - [Navegacion en la pagina](#navegacion-en-la-pagina)
+    - [Proceso de compra](#proceso-de-compra)
+    - [Metodos de pago](#metodos-de-pago)
+    - [Seguimiento de pedido](#seguimiento-de-pedido)
+    - [Politicas de devolucion y reembolsos](#politicas-de-devolucion-y-reembolsos)
+    - [Soporte al cliente](#soporte-al-cliente)
+    - [Seguridad y privacidad](#seguridad-y-privacidad)
+    - [Consejos y recomendaciones](#consejos-y-recomendaciones)
+    
   - [Suposiciones y dependencias](#suposiciones-y-dependencias)
     - [Factores Externos](#factores-externos)
     - [Factores Internos](#factores-internos)
@@ -220,6 +234,94 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
    > Aplicaciones nuevas, como [Nutrium](https://nutrium.com/es), luchan por diferenciarse de gigantes ya establecidos y ganarse la confianza del usuario. Este entorno competitivo hace difícil captar una base de usuarios significativa sin una propuesta de valor claramente diferenciada o una inversión significativa en marketing.
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
+
+## Documentacion del usuario
+### Introduccion
+La página web de alimentos saludables ofrece una plataforma en línea donde los usuarios pueden comprar productos frescos, naturales y orgánicos. Nuestro objetivo es promover hábitos alimenticios saludables ofreciendo una variedad de productos que satisfagan las necesidades nutricionales de las personas.
+
+### Requisitos del Sistema
+Navegador: Google Chrome, Mozilla Firefox, Safari o Microsoft Edge (versión más reciente).
+
+Conexión a internet: estable, mínima de 5 Mbps para una experiencia óptima.
+
+Dispositivos compatibles: PC, portátiles, tabletas y teléfonos móviles.
+
+### Registro de Usuario
+Navega a la página principal y haz clic en "Registrarse".
+
+Completa los campos obligatorios como nombre, dirección de correo electrónico y contraseña.
+
+Acepta los términos y condiciones.
+
+Haz clic en "Crear cuenta". Recibirás un correo de confirmación.
+
+Verifica tu cuenta a través del correo electrónico.
+
+### Iniciar Sesion
+En la página principal, selecciona "Iniciar sesión".
+
+Introduce tu correo electrónico y contraseña registrados.
+
+Haz clic en "Ingresar".
+
+### Navegacion en la Pagina
+Inicio: Presenta los productos destacados y las promociones actuales.
+
+Categorías de Productos: Organiza los alimentos saludables en diferentes categorías como frutas, verduras, productos orgánicos, y más.
+
+Búsqueda: Utiliza el cuadro de búsqueda para encontrar productos específicos.
+
+Carrito de Compras: Muestra los productos que el usuario ha agregado para la compra.
+
+### Proceso de Compra
+Navega por las categorías de productos o utiliza la barra de búsqueda para encontrar lo que necesitas.
+Haz clic en el producto deseado para ver sus detalles.
+
+Selecciona la cantidad que deseas comprar y haz clic en "Agregar al carrito".
+
+Una vez hayas agregado todos los productos, haz clic en el icono del carrito de compras.
+
+Revisa los productos en tu carrito y haz clic en "Proceder al pago".
+
+Introduce tus datos de envío y selecciona el método de pago.
+
+Confirma tu pedido y recibirás una confirmación por correo electrónico.
+
+### Metodos de Pago
+Tarjeta de crédito/débito (Visa, Mastercard)
+
+PayPal
+
+Transferencia bancaria
+
+Pago contra entrega (disponible en ciertas ubicaciones)
+
+### Seguimiento de Pedido
+Inicia sesión en tu cuenta.
+
+Ve a "Mis pedidos" en el menú de usuario.
+
+Selecciona el pedido que deseas seguir. Verás el estado de tu pedido (procesando, enviado, entregado).
+
+### Politicas de Devolucion y Reembolsos
+Los productos pueden ser devueltos dentro de los 14 días posteriores a la entrega si no están abiertos ni dañados.
+
+El reembolso se procesará una vez que se confirme la recepción del producto devuelto.
+
+### Soporte al Cliente
+Correo electrónico: soporte@EVO-Healthy-Foods.com
+
+Teléfono: +123 456 7890
+
+Chat en línea: Disponible de lunes a viernes de 9 AM a 6 PM
+
+### Seguridad y Privacidad
+La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+
+### Consejos y Recomendaciones
+Mantén tu perfil actualizado con la dirección correcta para envíos rápidos y precisos.
+
+Suscríbete a nuestro boletín para recibir notificaciones de ofertas especiales y nuevos productos.
 
 ## Suposiciones y dependencias
 ### Factores Externos
