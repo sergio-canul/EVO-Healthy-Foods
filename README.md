@@ -20,7 +20,7 @@
 - [Introducción](#introducción)
   - [Propósito](#propósito)
   - [Valores](#valores)
-  - [Objetivo](#Objetivo)
+  - [Objetivo](#objetivo)
   - [Audiencia y Alcance](#audiencia-y-alcance)
     - [Audiencia](#audiencia)
     - [Alcance](#alcance)
@@ -46,18 +46,17 @@
     - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
   - [Documentacion del usuario](#documentacion-del-usuario)
     - [Introduccion](#introduccion)
-    - [Requisitos del sistema](#requisitos-del-sistema)
-    - [Registro de usuario](#registro-de-usuario)
-    - [Iniciar sesion](#iniciar-sesion)
-    - [Navegacion en la pagina](#navegacion-en-la-pagina)
-    - [Proceso de compra](#proceso-de-compra)
-    - [Metodos de pago](#metodos-de-pago)
-    - [Seguimiento de pedido](#seguimiento-de-pedido)
-    - [Politicas de devolucion y reembolsos](#politicas-de-devolucion-y-reembolsos)
-    - [Soporte al cliente](#soporte-al-cliente)
-    - [Seguridad y privacidad](#seguridad-y-privacidad)
-    - [Consejos y recomendaciones](#consejos-y-recomendaciones)
-    
+    - [Requisitos del Sistema](#requisitos-del-sistema)
+    - [Registro de Usuario](#registro-de-usuario)
+    - [Iniciar Sesion](#iniciar-sesion)
+    - [Navegacion en la Pagina](#navegacion-en-la-pagina)
+    - [Proceso de Compra](#proceso-de-compra)
+    - [Metodos de Pago](#metodos-de-pago)
+    - [Seguimiento de Pedido](#seguimiento-de-pedido)
+    - [Politicas de Devolucion y Reembolsos](#politicas-de-devolucion-y-reembolsos)
+    - [Soporte al Cliente](#soporte-al-cliente)
+    - [Seguridad y Privacidad](#seguridad-y-privacidad)
+    - [Consejos y Recomendaciones](#consejos-y-recomendaciones)
   - [Suposiciones y dependencias](#suposiciones-y-dependencias)
     - [Factores Externos](#factores-externos)
     - [Factores Internos](#factores-internos)
@@ -74,7 +73,7 @@
     - [RF-008](#rf-008)
     - [RF-009](#rf-009)
     - [RF-010](#rf-010)
-    - [RF-011](#rf-010)
+    - [RF-011](#rf-011)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -361,8 +360,8 @@ El sistema debe ser compatible tanto en dispositivos moviles como en PC's con di
 ### Requerimientos de la página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega
-* El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
-* Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, el status de entrega.
+* La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+* Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
 ### Requerimientos de ubicación
 El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
