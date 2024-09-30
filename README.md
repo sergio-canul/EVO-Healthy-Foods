@@ -78,28 +78,15 @@
 ## Propósito
 El proposito de la empresa es proporcionar opciones de comida saludable, rica y accesible a todos, fomentando un estilo de vida equilibrado y sano.
 
-
-## Visión
-
-Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
-
 ## Valores
 
 - *Mejora continua:* Nos comprometemos a mejorar constantemente la calidad de nuestros productos y servicios.
 - *Responsabilidad nutricional:* Ofrecemos alimentos que contribuyen positivamente a la salud de nuestros clientes.
 - *Inclusión y equidad:* Nos esforzamos por incluir y apoyar a personas que han sido marginadas en el mercado laboral.
 
-## Objetivos
+## Objetivo
 
 1. Mejorar la dieta y salud de la población mediante la provisión de alimentos saludables.
-2. Convertirnos en una de las mejores empresas de comida saludable en el estado de Yucatán.
-
-## Políticas
-
-- Cumplimiento de normas sanitarias y estándares de calidad.
-- Transparencia en la comunicación interna y externa.
-- Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
-- Diversidad e inclusión en la fuerza laboral.
 
 ## Audiencia y Alcance
 ### Audiencia
