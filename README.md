@@ -330,7 +330,7 @@ EVO HEALTHY FOODS, es una empresa digital, por lo tanto es importante que nuestr
 
 ## Requerimientos Funcionales
 ### RF-001
-El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
+
 ### RF-002
 El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
 ### RF-003
