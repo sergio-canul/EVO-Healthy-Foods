@@ -62,6 +62,7 @@
     - [RF-008](#rf-008)
     - [RF-009](#rf-009)
     - [RF-010](#rf-010)
+    - [RF-011](#rf-010)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -70,6 +71,7 @@
     - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
+    - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
 
 # Introducción
 
@@ -260,6 +262,8 @@ El sistema mostrará las comidas disponibles en el primer plano.
 El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
+### RF-011
+El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -277,3 +281,5 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
+### Requerimiento de la actualizacion de la pagina
+El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
