@@ -99,6 +99,12 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
 - Diversidad e inclusión en la fuerza laboral.
 
+## Audiencia y Alcance
+### Audiencia
+La audiencia para nuestra marca podría ser general, ya que una dieta saludable, variada y equilibrada es una necesidad básica en todos los humanos. Sin embargo, estamos conscientes de que no todas las personas tienen la oportunidad cuidar de su alimentación por cualquier circunstancia adversa o que algunas personas podrían encontrar problemas a la hora de consumir nuestros productos por situaciones particulares, por lo que apelaremos más que nada a personas que tengan un camino ya trazado en cuanto al entrenamiento físico y cuidado de la alimentación, o quienes estén determinados a incursionarse en él.
+### Alcance
+Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
+
 ## Referencias
 > Marketing. (2022, January 31). Pasos para implementar el delivery en tu negocio - Cashlogy. Cashlogy. https://cashlogy.com/es/pasos-implementar-delivery-tu-negocio/
 > 
@@ -210,12 +216,6 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
    > Aplicaciones nuevas, como [Nutrium](https://nutrium.com/es), luchan por diferenciarse de gigantes ya establecidos y ganarse la confianza del usuario. Este entorno competitivo hace difícil captar una base de usuarios significativa sin una propuesta de valor claramente diferenciada o una inversión significativa en marketing.
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
-
-## Audiencia y Alcance
-### Audiencia
-La audiencia para nuestra marca podría ser general, ya que una dieta saludable, variada y equilibrada es una necesidad básica en todos los humanos. Sin embargo, estamos conscientes de que no todas las personas tienen la oportunidad cuidar de su alimentación por cualquier circunstancia adversa o que algunas personas podrían encontrar problemas a la hora de consumir nuestros productos por situaciones particulares, por lo que apelaremos más que nada a personas que tengan un camino ya trazado en cuanto al entrenamiento físico y cuidado de la alimentación, o quienes estén determinados a incursionarse en él.
-### Alcance
-Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
 
 ## Suposiciones y dependencias
 ### Factores Externos
