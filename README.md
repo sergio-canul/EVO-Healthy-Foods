@@ -369,7 +369,7 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
 ### Requerimiento de la actualizacion de la pagina
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
-### Requerimiento del sistema
+### Requerimiento de la página
 Debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
 ### Requerimieno del navegador 
 La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en dispositivos móviles.
