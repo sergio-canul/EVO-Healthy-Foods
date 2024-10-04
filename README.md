@@ -18,15 +18,16 @@
   - [Integrantes](#integrantes)
 - [Tabla de contenido](#tabla-de-contenido)
 - [Introducción](#introducción)
-  - [Perspectiva del producto](#perspectiva-del-producto)
   - [Propósito](#propósito)
-  - [Visión](#visión)
   - [Valores](#valores)
-  - [Objetivos](#objetivos)
-  - [Políticas](#políticas)
+  - [Objetivo](#objetivo)
+  - [Audiencia y Alcance](#audiencia-y-alcance)
+    - [Audiencia](#audiencia)
+    - [Alcance](#alcance)
   - [Referencias](#referencias)
 - [Descripción del Proyecto](#descripción-del-proyecto)
-  - [Perspectiva del producto](#perspectiva-del-producto-1)
+  - [Perspectiva del producto](#perspectiva-del-producto)
+  - [Caracteristicas del producto](#caracteristicas-del-producto)
   - [Clases y características de usuario](#clases-y-características-de-usuario)
     - [Cliente:](#cliente)
     - [Administrador del sistema:](#administrador-del-sistema)
@@ -35,7 +36,7 @@
     - [Sociales](#sociales)
     - [Psicologicos](#psicologicos)
     - [Infraestructura](#infraestructura)
-  - [Restricciones e implementación](#restricciones-e-implementación)
+  - [Restricciones e implementaciones](#restricciones-e-implementaciones)
     - [Nutricional](#nutricional)
     - [Entrega a domicilio](#entrega-a-domicilio)
     - [Implicaciones con los usuarios](#implicaciones-con-los-usuarios)
@@ -43,8 +44,19 @@
     - [El personal interno](#el-personal-interno)
     - [Repartidores](#repartidores)
     - [Problemas de negocio y derivados](#problemas-de-negocio-y-derivados)
-  - [Audiencia y Alcance](#audiencia-y-alcance)
-  - [Caracteristicas del producto](#caracteristicas-del-producto)
+  - [Documentacion del usuario](#documentacion-del-usuario)
+    - [Introduccion](#introduccion)
+    - [Requisitos del Sistema](#requisitos-del-sistema)
+    - [Registro de Usuario](#registro-de-usuario)
+    - [Iniciar Sesion](#iniciar-sesion)
+    - [Navegacion en la Pagina](#navegacion-en-la-pagina)
+    - [Proceso de Compra](#proceso-de-compra)
+    - [Metodos de Pago](#metodos-de-pago)
+    - [Seguimiento de Pedido](#seguimiento-de-pedido)
+    - [Politicas de Devolucion y Reembolsos](#politicas-de-devolucion-y-reembolsos)
+    - [Soporte al Cliente](#soporte-al-cliente)
+    - [Seguridad y Privacidad](#seguridad-y-privacidad)
+    - [Consejos y Recomendaciones](#consejos-y-recomendaciones)
   - [Suposiciones y dependencias](#suposiciones-y-dependencias)
     - [Factores Externos](#factores-externos)
     - [Factores Internos](#factores-internos)
@@ -61,6 +73,7 @@
     - [RF-008](#rf-008)
     - [RF-009](#rf-009)
     - [RF-010](#rf-010)
+    - [RF-011](#rf-011)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -69,6 +82,7 @@
     - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
+    - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
 
 # Introducción
 
@@ -78,7 +92,6 @@
 El proposito de la empresa es proporcionar opciones de comida saludable, rica y accesible a todos, fomentando un estilo de vida equilibrado y sano.
 
 ## Visión
-
 Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
 
 ## Valores
@@ -87,17 +100,15 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - *Responsabilidad nutricional:* Ofrecemos alimentos que contribuyen positivamente a la salud de nuestros clientes.
 - *Inclusión y equidad:* Nos esforzamos por incluir y apoyar a personas que han sido marginadas en el mercado laboral.
 
-## Objetivos
+## Objetivo
 
 1. Mejorar la dieta y salud de la población mediante la provisión de alimentos saludables.
-2. Convertirnos en una de las mejores empresas de comida saludable en el estado de Yucatán.
 
-## Políticas
-
-- Cumplimiento de normas sanitarias y estándares de calidad.
-- Transparencia en la comunicación interna y externa.
-- Fomento de la sostenibilidad ambiental y la responsabilidad social corporativa.
-- Diversidad e inclusión en la fuerza laboral.
+## Audiencia y Alcance
+### Audiencia
+La audiencia para nuestra marca podría ser general, ya que una dieta saludable, variada y equilibrada es una necesidad básica en todos los humanos. Sin embargo, estamos conscientes de que no todas las personas tienen la oportunidad cuidar de su alimentación por cualquier circunstancia adversa o que algunas personas podrían encontrar problemas a la hora de consumir nuestros productos por situaciones particulares, por lo que apelaremos más que nada a personas que tengan un camino ya trazado en cuanto al entrenamiento físico y cuidado de la alimentación, o quienes estén determinados a incursionarse en él.
+### Alcance
+Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
 
 ## Referencias
 > Marketing. (2022, January 31). Pasos para implementar el delivery en tu negocio - Cashlogy. Cashlogy. https://cashlogy.com/es/pasos-implementar-delivery-tu-negocio/
@@ -117,7 +128,26 @@ Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable
 - Mercado.- Nuestro producto tiene el mercado dirigido a personas activas y conscientes de su salud, utilizando redes sociales y marketing digital para conectar con su audiencia.
 - Costos.- La empresa realiza un análisis de costos para asegurarse de que el precio de venta cubra los costos de producción y marketing, sin perder competitividad frente a otras marcas.
 - Sostenibilidad.- Nuestros productos hacen uso de ingredientes orgánicos y empaques biodegradables, así como prácticas de producción que minimizan el impacto ambiental.
+## Caracteristicas del producto
 
+ 1. Pagina web con un diseño atractivo
+    ```md
+     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
+     - Debe mostrar información clara sobre los valores de la empresa
+     - Debe ser una pagina web facil de darle mantenimiento
+    ```
+ 2. Catalogo de productos
+    ```md
+     - Listado de todos los productos
+     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
+     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
+    ```
+ 3. Funcionalidad de pedidos en linea 
+    ```md
+     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
+     - Se integrará con plataformas de pago seguras 
+     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
+    ```
 ## Clases y características de usuario
 ### Cliente:
 1. Registro, inicio de sesión y gestión de su perfil.
@@ -192,31 +222,93 @@ El transporte y la orientación son cruciales, ya que se requieren vehículos y 
 7. *Cumplimiento Regulatorio Complejo*: Cumplir con las normativas de salud y privacidad es costoso y complejo, y el incumplimiento puede dañar gravemente la reputación y operación del negocio, al igual que condiciones salubres adecuadas en las instalaciones fisicas.
    > *Ejmplo de falla*: Una falla en el manejo de datos sensibles en la aplicación [Calory](https://calory.app) podría resultar en sanciones graves, afectando su reputación y operaciones.
 
-## Audiencia y Alcance
+## Documentacion del usuario
+### Introduccion
+La página web de alimentos saludables ofrece una plataforma en línea donde los usuarios pueden comprar productos frescos, naturales y orgánicos. Nuestro objetivo es promover hábitos alimenticios saludables ofreciendo una variedad de productos que satisfagan las necesidades nutricionales de las personas.
 
-Audiencia: La audiencia para nusetra marca será general, ya que una dieta saludable y equilibrada es un requerimiento humano universal. Sin embargo, estamos conscientes de que no todas las personas tienen ese buen hábito de cuidar de su alimentación, por lo que apelaremos más que nada a personas que ya tengan un camino en el mundo del fitness, o quienes estén determinadas a incursionarse en él.
-Alcance: Nuestro alcance para empezar será local, abriendo una sucursal en Mérida. EVO Healthy Foods se rige por el valor de la mejoría constante, por lo que planeamos abrir más sucursales dependiendo de la aceptación del público ante nuestros productos y servicios.
+### Requisitos del Sistema
+Navegador: Google Chrome, Mozilla Firefox, Safari o Microsoft Edge (versión más reciente).
 
-## Caracteristicas del producto
+Conexión a internet: estable, mínima de 5 Mbps para una experiencia óptima.
 
- 1. Pagina web con un diseño atractivo
-    ```md
-     - Diseño limpio y moderno que refleje el enfoque en la comida saludadable
-     - Debe mostrar información clara sobre los valores de la empresa
-     - Debe ser una pagina web facil de darle mantenimiento
-    ```
- 2. Catalogo de productos
-    ```md
-     - Listado de todos los productos
-     - Cada producto debe tener una imagen, descripción, información nutricional, ingredientes y precio
-     - Debe tener filtros para que los usuarios puedan buscar productos por categorias
-    ```
- 3. Funcionalidad de pedidos en linea 
-    ```md
-     - Contará con un carrito de compras donde el usuario podra agregar productos y pagarlos para posteriormente ser enviados
-     - Se integrará con plataformas de pago seguras 
-     - El usuario tendrá la posibilidad de programar entregas o seleccionar un horario de entrega conveniente
-    ```
+Dispositivos compatibles: PC, portátiles, tabletas y teléfonos móviles.
+
+### Registro de Usuario
+Navega a la página principal y haz clic en "Registrarse".
+
+Completa los campos obligatorios como nombre, dirección de correo electrónico y contraseña.
+
+Acepta los términos y condiciones.
+
+Haz clic en "Crear cuenta". Recibirás un correo de confirmación.
+
+Verifica tu cuenta a través del correo electrónico.
+
+### Iniciar Sesion
+En la página principal, selecciona "Iniciar sesión".
+
+Introduce tu correo electrónico y contraseña registrados.
+
+Haz clic en "Ingresar".
+
+### Navegacion en la Pagina
+Inicio: Presenta los productos destacados y las promociones actuales.
+
+Categorías de Productos: Organiza los alimentos saludables en diferentes categorías como frutas, verduras, productos orgánicos, y más.
+
+Búsqueda: Utiliza el cuadro de búsqueda para encontrar productos específicos.
+
+Carrito de Compras: Muestra los productos que el usuario ha agregado para la compra.
+
+### Proceso de Compra
+Navega por las categorías de productos o utiliza la barra de búsqueda para encontrar lo que necesitas.
+Haz clic en el producto deseado para ver sus detalles.
+
+Selecciona la cantidad que deseas comprar y haz clic en "Agregar al carrito".
+
+Una vez hayas agregado todos los productos, haz clic en el icono del carrito de compras.
+
+Revisa los productos en tu carrito y haz clic en "Proceder al pago".
+
+Introduce tus datos de envío y selecciona el método de pago.
+
+Confirma tu pedido y recibirás una confirmación por correo electrónico.
+
+### Metodos de Pago
+Tarjeta de crédito/débito (Visa, Mastercard)
+
+PayPal
+
+Transferencia bancaria
+
+Pago contra entrega (disponible en ciertas ubicaciones)
+
+### Seguimiento de Pedido
+Inicia sesión en tu cuenta.
+
+Ve a "Mis pedidos" en el menú de usuario.
+
+Selecciona el pedido que deseas seguir. Verás el estado de tu pedido (procesando, enviado, entregado).
+
+### Politicas de Devolucion y Reembolsos
+Los productos pueden ser devueltos dentro de los 14 días posteriores a la entrega si no están abiertos ni dañados.
+
+El reembolso se procesará una vez que se confirme la recepción del producto devuelto.
+
+### Soporte al Cliente
+Correo electrónico: soporte@EVO-Healthy-Foods.com
+
+Teléfono: +123 456 7890
+
+Chat en línea: Disponible de lunes a viernes de 9 AM a 6 PM
+
+### Seguridad y Privacidad
+La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+
+### Consejos y Recomendaciones
+Mantén tu perfil actualizado con la dirección correcta para envíos rápidos y precisos.
+
+Suscríbete a nuestro boletín para recibir notificaciones de ofertas especiales y nuevos productos.
 
 ## Suposiciones y dependencias
 ### Factores Externos
@@ -261,6 +353,8 @@ El sistema recomendará al usuario los complementos que normalmente se compran j
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ### RF-011
 El sistema tendrá un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página
+### RF-012
+El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -269,8 +363,8 @@ La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptaci
 ### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ### Requerimientos de la entrega
-* El sistema debe ser escalable para manejar un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
-* Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, el status de entrega.
+* La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
+* Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
 ### Requerimientos de ubicación
 El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
@@ -280,3 +374,5 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 La página debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
 ### Requerimientos de navegación
 La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en los distientos dispositivos móviles.
+### Requerimiento de la actualizacion de la pagina
+El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
