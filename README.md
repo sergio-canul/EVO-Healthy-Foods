@@ -91,6 +91,9 @@
 ## Propósito
 El proposito de la empresa es proporcionar opciones de comida saludable, rica y accesible a todos, fomentando un estilo de vida equilibrado y sano.
 
+## Visión
+Convertirnos en la primera marca mexicana que ofrezca comida rápida y saludable, mejorando constantemente nuestras recetas conforme a los avances en la ciencia nutricional para garantizar sabores excepcionales y beneficios nutricionales.
+
 ## Valores
 
 - *Mejora continua:* Nos comprometemos a mejorar constantemente la calidad de nuestros productos y servicios.
@@ -349,6 +352,8 @@ El sistema recomendará al usuario los complementos que normalmente se compran j
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ### RF-011
+El sistema tendrá un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página
+### RF-012
 El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
@@ -357,8 +362,6 @@ Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto co
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 ### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
-### Requerimientos de la página
-El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega
 * La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 * Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
@@ -367,5 +370,9 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
+### Requerimientos de sistema
+La página debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
+### Requerimientos de navegación
+La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en los distientos dispositivos móviles.
 ### Requerimiento de la actualizacion de la pagina
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
