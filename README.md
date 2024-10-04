@@ -350,6 +350,8 @@ El sistema recomendará al usuario los complementos que normalmente se compran j
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ### RF-011
 El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
+### RF-012
+El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -357,8 +359,6 @@ Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto co
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 ### Requerimientos de Compatibilidad
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
-### Requerimientos de la página
-El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega
 * La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 * Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
@@ -369,3 +369,7 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
 ### Requerimiento de la actualizacion de la pagina
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
+### Requerimiento del sistema
+Debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
+### Requerimieno del navegador 
+La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en dispositivos móviles.
