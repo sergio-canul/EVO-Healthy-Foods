@@ -260,7 +260,7 @@ El sistema recomendará al usuario los complementos que normalmente se compran j
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ### RF-011
-El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página
+El sistema tendrá un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -277,6 +277,6 @@ El sistema guardara la ubicación del cliente para agilizar futuros pedidos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
 ### Requerimientos de sistema
-Debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo
+La página debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
 ### Requerimientos de navegación
-La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en los dispositivos móviles
+La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en los distientos dispositivos móviles.
