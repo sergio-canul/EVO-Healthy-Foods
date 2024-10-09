@@ -372,4 +372,4 @@ El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo
 ### Requerimiento de la página
 Debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
 ### Requerimieno del navegador 
-La página debe funcionar correctamente en los navegadores más populares (Chrome, Firefox, Safari, Edge) y en dispositivos móviles.
+La página debe funcionar correctamente en los navegadores más populares y usados (Chrome, Firefox, Safari, Edge) y en dispositivos móviles.
