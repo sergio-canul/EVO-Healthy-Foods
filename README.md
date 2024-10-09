@@ -259,13 +259,13 @@ El sistema mostrará las comidas disponibles en el primer plano.
 El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
+### RF-011
+El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
 ### Requerimientos de Seguridad
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
-### Requerimientos de Compatibilidad
-El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ### Requerimientos de la página
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### Requerimientos de la entrega
