@@ -74,11 +74,12 @@
     - [RF-009](#rf-009)
     - [RF-010](#rf-010)
     - [RF-011](#rf-011)
+    - [RF-012](#rf-012)
+    - [RF-013](#rf-013)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
-    - [Requerimientos de Compatibilidad](#requerimientos-de-compatibilidad)
-    - [Requerimientos de la página](#requerimientos-de-la-página)
+    - [Requerimientos de la página](#requerimiento-de-la-página)
     - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
@@ -352,13 +353,13 @@ El sistema enviará promociones si asi lo desea el usuario, de descuentos y prom
 El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ### RF-012
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
+### RF-013
+El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
 ### Requerimientos de Seguridad
 La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
-### Requerimientos de Compatibilidad
-El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
 ### Requerimientos de la entrega
 * La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 * Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
