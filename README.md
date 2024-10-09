@@ -363,7 +363,7 @@ El sistema debe ser compatible tanto en dispositivos moviles como en PC's con di
 * La página debe estar optimizada para un aumento en el número de pedidos, y garantizar que las entregas se gestionen sin retardos.
 * Se le debe enviar al usuario la guia de entrega de los encargos, con el que podrá ser visible y privado solo para el comprador, junto con el status de entrega.
 ### Requerimientos de ubicación
-El sistema guardara la ubicación del cliente para agilizar futuros pedidos
+El sistema le preguntará al usuario si desea que se guarde su ubicación para agilizar futuros pedidos
 ### Requerimientos de la base de datos
 * El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
