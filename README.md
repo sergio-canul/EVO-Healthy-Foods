@@ -76,6 +76,8 @@
     - [RF-011](#rf-011)
     - [RF-012](#rf-012)
     - [RF-013](#rf-013)
+    - [RF-014](#rf-014)
+    - [RF-015](#rf-015)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -84,6 +86,7 @@
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
     - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
+    - [Requerimientos éticos](#requerimientos-éticos)
 
 # Introducción
 
