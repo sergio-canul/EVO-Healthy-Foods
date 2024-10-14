@@ -1,0 +1,297 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="VL4asxKjkzZVfqzbkVw6">
+    <mxGraphModel dx="1750" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;dashed=1;dashPattern=1 4;strokeColor=#787878;strokeWidth=2;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-14" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="-40" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-15" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=6;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-14">
+          <mxGeometry width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-16" value="Usuario&lt;div&gt;[Sin loguear]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-14">
+          <mxGeometry x="10" y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-18" target="DJPe3S-k68BUPWPQSkZP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-18" value="«&lt;b&gt;Aplicación web&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: Docker]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Muestra los datos estaticos de la aplicación web&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#878787;dashed=1;dashPattern=12 12;fillColor=#0050ef;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-19" target="DJPe3S-k68BUPWPQSkZP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-19" target="DJPe3S-k68BUPWPQSkZP-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1770" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-19" value="«&lt;b&gt;Api de email&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Api: Google email]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Recibe y envia mensajes del backend via email&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="410" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-20" target="DJPe3S-k68BUPWPQSkZP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-20" target="DJPe3S-k68BUPWPQSkZP-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-20" value="«&lt;b&gt;Pagina web&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: php, laravel&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Carga la página principal en la web&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-15" target="DJPe3S-k68BUPWPQSkZP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-25" value="Redirige hacia pagina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#878787;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-15" target="DJPe3S-k68BUPWPQSkZP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-31" target="DJPe3S-k68BUPWPQSkZP-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-31" value="«&lt;b&gt;Pagina de productos&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: php, laravel]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Muestra todos los productos existentes&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-33" value="Redirige para detalles (If)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="520" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-34" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1260" y="205" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-34">
+          <mxGeometry width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-36" value="&lt;b&gt;Base de datos&lt;/b&gt;&lt;div&gt;[Software: Base de datos relacional]&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Almacena al personal, productos, cuentas, historial, etc.&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-34">
+          <mxGeometry x="10" y="50" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;startArrow=classicThin;startFill=0;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-31" target="DJPe3S-k68BUPWPQSkZP-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;strokeColor=#878787;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-15" target="DJPe3S-k68BUPWPQSkZP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-43" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Lee los datos de los productos y los carga&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="810" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-45" value="Puede ver opciones básicas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="440" y="105" width="80" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-46" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Puede ver pero no comprar (Nesecita loguear)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="590" y="93.75" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#878787;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-47" target="DJPe3S-k68BUPWPQSkZP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-47" target="DJPe3S-k68BUPWPQSkZP-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-47" value="«&lt;b&gt;Logueo&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: php, laravel]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;El usuario registra o ingresa a una cuenta&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="485" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-50" value="Si intenta comprar redirige a loguearse&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="620" y="340" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-51" value="Si quiere estar en su propia cuenta redirige a loguearse&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-54" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Envía los mensaje de confirmación y correo al API&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[SmTP]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="820" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-55" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Envia email de confirmación al correo del usuario&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;[&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SmTP&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="820" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;startArrow=classicThin;startFill=0;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-47" target="DJPe3S-k68BUPWPQSkZP-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="530" />
+              <mxPoint x="1270" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-57" value="Lee y confirma la existencia de usuario.&lt;div&gt;Escribe y registra los datos del nuevo usuario.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="990" y="480" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;dashed=1;dashPattern=1 4;strokeColor=#787878;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="810" width="920" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-63" target="DJPe3S-k68BUPWPQSkZP-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-63" value="«&lt;b&gt;Perfil&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: php, laravel]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Puede vizualizar los datos de su propia cuenta.&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="465" y="880" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-64" value="" style="group;fillColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="520" y="540" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-59" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#001DBC;strokeWidth=6;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-64">
+          <mxGeometry width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-60" value="Usuario&lt;div&gt;[Esta logueado]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="DJPe3S-k68BUPWPQSkZP-64">
+          <mxGeometry x="8.18181818181813" y="50" width="73.63636363636364" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-66" value="«&lt;b&gt;Historial&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: JavaScript, React, Php]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Permite vizualizar los pedidos que el propio cliente ha hecho en todo el tiempo&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="790" y="870" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#878787;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-67" target="DJPe3S-k68BUPWPQSkZP-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-67" value="«&lt;b&gt;Enviar postulación&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: js, php]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Los usuarios pueden enviar una petición para ser contratados en la empresa&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="870" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-59" target="DJPe3S-k68BUPWPQSkZP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-69" value="El usuario puede ver sus propios datos&lt;div&gt;[Json]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="465" y="815" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-71" value="Desde perfil puede ver su propio historial&lt;div&gt;[XML, Json]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=0;dashed=1;dashPattern=12 12;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-36" target="DJPe3S-k68BUPWPQSkZP-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1313" y="630" />
+              <mxPoint x="940" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-73" value="Lee todas las transacciones y pedidos con id del usuario&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="950" y="650" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;dashed=1;dashPattern=12 12;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-36" target="DJPe3S-k68BUPWPQSkZP-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1355" y="650" />
+              <mxPoint x="1155" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-75" value="Registra la petición de contratación.&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-59" target="DJPe3S-k68BUPWPQSkZP-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="780" />
+              <mxPoint x="890" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-77" value="El usuario puede ver el historial de transacciones hechas [HTTPS]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-59" target="DJPe3S-k68BUPWPQSkZP-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="615" />
+              <mxPoint x="920" y="770" />
+              <mxPoint x="1065" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-79" value="Puede enviar una solicitud de empleo.&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="630" y="620" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#878787;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-80" target="DJPe3S-k68BUPWPQSkZP-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-80" value="«&lt;b&gt;Compra de producto&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: Js, Html, Php, Json]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;Vizualiza los datos del producto que se desea comprar&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1089" width="169.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#001DBC;fillColor=#0050ef;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-81" target="DJPe3S-k68BUPWPQSkZP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-81" value="«&lt;b&gt;Carrito de compras&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: Js, HTML, JSON, PhP]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Revisa la existencia de los productos, enviando datos de productos pedidos&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1089" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-83" value="Si quiere comprar lo redirige al carrito&lt;div&gt;[HTTPS, JSON]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.731;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;fillColor=#a20025;strokeColor=#6F0000;dashed=1;dashPattern=12 12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-81" target="DJPe3S-k68BUPWPQSkZP-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="893" y="1000" />
+              <mxPoint x="1399" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-86" value="Registra la compra de los pedidos&amp;nbsp;&lt;div&gt;[HTTPS, JSON]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1010" width="180.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.016;exitY=0.822;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-59" target="DJPe3S-k68BUPWPQSkZP-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="622" />
+              <mxPoint x="380" y="1010" />
+              <mxPoint x="845" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-59" target="DJPe3S-k68BUPWPQSkZP-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="590" />
+              <mxPoint x="350" y="1050" />
+              <mxPoint x="525" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-90" value="El usuario puede ver los productos que quiere comprar&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="400" y="970" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-91" value="El usuario puede el producto que va comprar&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="351" y="1060" width="79" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-93" value="Una vez se confirme la compra de producto, envia mensaje con factura&amp;nbsp;&lt;div&gt;[HTTPS, JSON]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1110" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-94" value="Petición a servidor para la vizualización.&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.79;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-19" target="DJPe3S-k68BUPWPQSkZP-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1730" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-96" value="Envia factura de compra al cliente.&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="520" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-98" target="DJPe3S-k68BUPWPQSkZP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="DJPe3S-k68BUPWPQSkZP-98" target="DJPe3S-k68BUPWPQSkZP-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-98" value="«&lt;b&gt;Procesamiento de solicitud&lt;/b&gt;»&lt;br&gt;&lt;i&gt;&lt;u&gt;[Software: Python, Php, Js, Laravel]&lt;/u&gt;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Personal interno gestiona la solicitud para su aprobación o declinación&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="875" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-100" value="Envia solicitud de usuario.&lt;div&gt;[HTTPS, JSON]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="880" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-102" value="Envia resultados a usuario via Api.&lt;div&gt;[HTTPS, JSON]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="615" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-104" value="Envia los resultados de la postulación al usuario via email.&lt;div&gt;[HTTPS, EMAIL]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="520" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DJPe3S-k68BUPWPQSkZP-106" value="Si es aprobada, registra al usuario como empleado.&lt;div&gt;[HTTPS]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#878787;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="760" width="90" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
