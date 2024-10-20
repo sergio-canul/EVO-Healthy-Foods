@@ -11,7 +11,9 @@ Esta página web tiene como objetivo ofrecer una plataforma para la venta de pro
 * Password_encrypted: Es string designa una contraseña encriptada para el administrador por seguridad.
 * Login_Date: Es tipo date guarda la fecha del inicio de sesion del adiministrador.
 * Modification_Date: Es tipo date guarda la fecha de modificación de los cambios realizados.
+
 Estos atributos son privados debido a que solo tiene acceso el administrador para hacer los cambios.
+
 ### Funciones
 * IniciarSesion(String): Da respuesta tipo lógico para acpetar el inicio de sesión del administrador.
 * FechadeCambios(Date): Da respuesta tipo Date para mostrar la fecha para el historial de cambios.
@@ -20,6 +22,7 @@ Estos atributos son privados debido a que solo tiene acceso el administrador par
 * VisualizarInf_Usuarios(): Visualiza la información de las cuentas de usuario.
 ### Relaciones
 * Tiene relación con los proveedores, usuario, inventario, usuario y soporte.
+
 Las funciones son privadas solo los administradores pueden realizar las funciones de esta entidad. Gestionan los encargados de soporte, los proveedores, el inventario y las cuentas de usuario.
 
 ## Proveedores
@@ -30,14 +33,16 @@ Las funciones son privadas solo los administradores pueden realizar las funcione
 * Adress: Es tipo string guarda la dirección del proveedor.
 * Email: Es tipo string guarda el correo electronico del proveedor.
 * Postal_Code: Es tipo entero guarda el codigo postal del proveedor.
-### Relaciones
+
 Estos atributos son privados solo los proveedores tienen acceso a esta entidad.
+
 ### Funciones
 * RegistrarProveedores(): Da respuesta tipo string registra a los proveedores autorizados.
 * AbastecerInventario(Int): Abastece el numero de productos al inventario.
 * ContactoProveedores(Int): Realiza el contacto a los proveedores.
 ### Relaciones
 * Tiene relación con el administrador y el inventario.
+
 Estas funciones son públicas ya que los administradores, proveedores y el inventario tienen acceso a las funciones. Estas funciones permiten proveer productos al inventario.
 
 ## Inventario
@@ -48,7 +53,9 @@ Estas funciones son públicas ya que los administradores, proveedores y el inven
 * Cantidad: Es tipo entero designa la cantidad de productos. 
 * Precio: Es tipo flotante designa el precio de los productos.
 * Fecha_caducidad: Es tipo date designa la fecha de caducidad de los productos.
+
 Estos atributos son privados solo los encargados del inventario tienen acceso a estos.
+
 ### Funciones
 * AñadirProducto(Int): Da respuesta entero añade la cantidad de productos.
 * MostrarProductos(): Muestra el nombre de los productos.
@@ -57,6 +64,7 @@ Estos atributos son privados solo los encargados del inventario tienen acceso a 
 * ModificarFechaCaducidad(Date): Modifical la fecha de caducidad de los productos. 
 ### Relaciones
 * Tiene relación con el administrador, proveedores, sucursales y productos.
+
 Estas funciones son públicas tienen acceso los administradores y los proveedores aumentan la cantidad de inventario. Las funciones son para modificar la cantidad de productos y proveer productos para la venta en las sucursuales.
 
 ## Reseñas
@@ -67,6 +75,9 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 * rating: Es tipo entero de 1 a 5 sirve para guardar la calificación del rating.
 * review_text: Es tipo texto tiene la función de permitir escribir el texto de la reseña.
 * date_review: Es tipo fecha guarda la fecha de la reseña.
+
+Estos atributos son privados y públicos tienen acceso tanto los usuarios como los encargados de las reseñas.
+
 ### Funciones
 * CalificarReseña(): Califica la reseña da tipo entero con su limite de 1 a 5.
 * EscribirReseña(): Es tipo texto el usuario escribe la reseña acerca del producto.
@@ -75,6 +86,7 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 * ActualizarReseña(): Es tipo lógico permite actualizar la reseña antes ya públicada.
 ### Relaciones
 * Tiene relación con los clientes y los pedidos.
+
 Estas funciones son públicas se utiliza para la realización de las reseñas de los pedidos.
 
 
