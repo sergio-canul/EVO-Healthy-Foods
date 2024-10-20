@@ -11,7 +11,9 @@ Esta página web tiene como objetivo ofrecer una plataforma para la venta de pro
 * Password_encrypted: Es string designa una contraseña encriptada para el administrador por seguridad.
 * Login_Date: Es tipo date guarda la fecha del inicio de sesion del adiministrador.
 * Modification_Date: Es tipo date guarda la fecha de modificación de los cambios realizados.
+
 Estos atributos son privados debido a que solo tiene acceso el administrador para hacer los cambios.
+
 ### Funciones
 * IniciarSesion(String): Da respuesta tipo lógico para acpetar el inicio de sesión del administrador.
 * FechadeCambios(Date): Da respuesta tipo Date para mostrar la fecha para el historial de cambios.
