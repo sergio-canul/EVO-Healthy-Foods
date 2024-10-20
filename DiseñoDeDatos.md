@@ -67,6 +67,24 @@ Estos atributos son privados solo los encargados del inventario tienen acceso a 
 
 Estas funciones son públicas tienen acceso los administradores y los proveedores aumentan la cantidad de inventario. Las funciones son para modificar la cantidad de productos y proveer productos para la venta en las sucursuales.
 
+## Carrito de compras
+### Atributos
+*ID_Carrito: Es de tipo entero designa el ID del carrito de compras
+*Productos: Es de tipo string guarda el nombre de los productos que se añaden al carrito
+*Cantidad_Total: Es de tipo entero muestra la cantidad de productos que hay guardados en el carrito
+*Precio_Total: Es de tipo double muestra el precio total de todos los productos incluidos en el carrito
+
+Estos atributos son privados y publicos, el usuario y los administradores tienen acceso a los datos.
+
+### Funciones
+*Añadir_Producto(void): Añade productos al carrito
+*Eliminar_Producto(void): Elimina productos de manera individual
+*Vaciar_Carrito(void): Elimina todos los productos del carrito
+*Actualizar_Cantidad(void): Muestra la nueva cantidad total de productos despues de añadir o eliminar productos
+*Calcular_Precio_Total(double): Calcula el precio total sumando el precio de cada producto en el carrito
+
+Estas funciones son publicas, para que el usuario pueda gestionar su carrito.
+
 ## Reseñas
 ### Atributos
 * review_id: Es tipo entero desinga un número de identificación de la reseña.
@@ -75,6 +93,8 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 * rating: Es tipo entero de 1 a 5 sirve para guardar la calificación del rating.
 * review_text: Es tipo texto tiene la función de permitir escribir el texto de la reseña.
 * date_review: Es tipo fecha guarda la fecha de la reseña.
+### Relaciones
+El carrito de compras tiene relación con el usuario, los productos y los pedidos.
 
 Estos atributos son privados y públicos tienen acceso tanto los usuarios como los encargados de las reseñas.
 
