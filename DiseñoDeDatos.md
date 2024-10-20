@@ -1,12 +1,23 @@
 # Diseño de Datos para la Página Web EVO-Healthy-Foods
 
 - [Diseño de Datos para la Página Web EVO-Healthy-Foods](#diseño-de-datos-para-la-página-web-evo-healthy-foods)
-  - [Introducción](#introducción)
-  - [Clases](#clases)
-    - [Usuario](#usuario)
-      - [Atributos](#atributos)
-      - [Acciones](#acciones)
-      - [Relaciones](#relaciones)
+- [Introducción](#introducción)
+  - [Administrador](#administrador)
+    - [Atributos](#atributos)
+    - [Funciones](#funciones)
+    - [Relaciones](#relaciones)
+  - [Proveedores](#proveedores)
+    - [Atributos](#atributos-1)
+    - [Funciones](#funciones-1)
+    - [Relaciones](#relaciones-1)
+  - [Inventario](#inventario)
+    - [Atributos](#atributos-2)
+    - [Funciones](#funciones-2)
+    - [Relaciones](#relaciones-2)
+  - [Reseñas](#reseñas)
+    - [Atributos](#atributos-3)
+    - [Funciones](#funciones-3)
+    - [Relaciones](#relaciones-3)
     - [Sucursal](#sucursal)
       - [Atributos\_Sucursal](#atributos_sucursal)
       - [Acciones\_Sucursal](#acciones_sucursal)
@@ -31,11 +42,6 @@
       - [Atributos\_Repartidor](#atributos_repartidor)
       - [Acciones\_Repartidor](#acciones_repartidor)
       - [Relaciones\_Repartidor](#relaciones_repartidor)
-  - [Administrador](#administrador)
-  - [Cliente](#cliente)
-  - [Carrito de Compras](#carrito-de-compras)
-  - [Producto](#producto)
-  - [](#)
 
 
 # Introducción
@@ -72,6 +78,9 @@ Las funciones son privadas solo los administradores pueden realizar las funcione
 * Adress: Es tipo string guarda la dirección del proveedor.
 * Email: Es tipo string guarda el correo electronico del proveedor.
 * Postal_Code: Es tipo entero guarda el codigo postal del proveedor.
+
+Estos atributos son privados solo los proveedores tienen acceso a esta entidad.
+
 ### Funciones
 * RegistrarProveedores(): Da respuesta tipo string registra a los proveedores autorizados.
 * AbastecerInventario(Int): Abastece el numero de productos al inventario.
@@ -124,8 +133,6 @@ Estos atributos son privados y públicos tienen acceso tanto los usuarios como l
 * Tiene relación con los clientes y los pedidos.
 
 Estas funciones son públicas se utiliza para la realización de las reseñas de los pedidos.
-
-
 
 ### Sucursal
 
@@ -276,7 +283,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Un repartidor tiene asignado un vehiculo
 - Un repartidor esta afiliado a un unico usuario (Referente a cuenta donde esta email y password)
 
-Estos atributos son privados solo los proveedores tienen acceso a esta entidad.
+
 
 
 
