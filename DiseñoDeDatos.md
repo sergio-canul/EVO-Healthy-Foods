@@ -14,31 +14,35 @@
     - [Atributos](#atributos-2)
     - [Funciones](#funciones-2)
     - [Relaciones](#relaciones-2)
-  - [Reseñas](#reseñas)
+  - [Carrito de compras](#carrito-de-compras)
     - [Atributos](#atributos-3)
     - [Funciones](#funciones-3)
     - [Relaciones](#relaciones-3)
-    - [Sucursal](#sucursal)
+  - [Reseñas](#reseñas)
+    - [Atributos](#atributos-4)
+    - [Funciones](#funciones-4)
+    - [Relaciones](#relaciones-4)
+  - [Sucursal](#sucursal)
       - [Atributos\_Sucursal](#atributos_sucursal)
       - [Acciones\_Sucursal](#acciones_sucursal)
       - [Relaciones\_Sucursal](#relaciones_sucursal)
-    - [Zona](#zona)
+  - [Zona](#zona)
       - [Atributos\_Zona](#atributos_zona)
       - [Acciones\_Zona](#acciones_zona)
       - [Relaciones\_Zona](#relaciones_zona)
-    - [Vehiculo](#vehiculo)
+  - [Vehiculo](#vehiculo)
       - [Atributos\_Vehiculo](#atributos_vehiculo)
       - [Acciones\_Vehiculo](#acciones_vehiculo)
       - [Relaciones\_Vehiculo](#relaciones_vehiculo)
-    - [Factura](#factura)
+  - [Factura](#factura)
       - [Atributos\_Factura](#atributos_factura)
       - [Acciones\_Factura](#acciones_factura)
       - [Relaciones\_Factura](#relaciones_factura)
-    - [Cocinero](#cocinero)
+  - [Cocinero](#cocinero)
       - [Atributos\_Cocinero](#atributos_cocinero)
       - [Acciones\_Cocinero](#acciones_cocinero)
       - [Relaciones\_Cocinero](#relaciones_cocinero)
-    - [Repartidor\_Cocinero](#repartidor_cocinero)
+  - [Repartidor\_Cocinero](#repartidor_cocinero)
       - [Atributos\_Repartidor](#atributos_repartidor)
       - [Acciones\_Repartidor](#acciones_repartidor)
       - [Relaciones\_Repartidor](#relaciones_repartidor)
@@ -65,10 +69,11 @@ Estos atributos son privados debido a que solo tiene acceso el administrador par
 * MostrarCambiosRealizados(): Muestra un historial de cambios para poder revertirlo y saber cual administrador realizo los cambios.
 * GestionUsuarios(): Gestiona las cuentas de los usuarios.
 * VisualizarInf_Usuarios(): Visualiza la información de las cuentas de usuario.
-### Relaciones
-* Tiene relación con los proveedores, usuario, inventario, usuario y soporte.
 
 Las funciones son privadas solo los administradores pueden realizar las funciones de esta entidad. Gestionan los encargados de soporte, los proveedores, el inventario y las cuentas de usuario.
+
+### Relaciones
+* Tiene relación con los proveedores, usuario, inventario, usuario y soporte.
 
 ## Proveedores
 ### Atributos
@@ -85,10 +90,12 @@ Estos atributos son privados solo los proveedores tienen acceso a esta entidad.
 * RegistrarProveedores(): Da respuesta tipo string registra a los proveedores autorizados.
 * AbastecerInventario(Int): Abastece el numero de productos al inventario.
 * ContactoProveedores(Int): Realiza el contacto a los proveedores.
+
+Estas funciones son públicas ya que los administradores, proveedores y el inventario tienen acceso a las funciones. Estas funciones permiten proveer productos al inventario.
+
 ### Relaciones
 * Tiene relación con el administrador y el inventario.
 
-Estas funciones son públicas ya que los administradores, proveedores y el inventario tienen acceso a las funciones. Estas funciones permiten proveer productos al inventario.
 
 ## Inventario
 ### Atributos
@@ -107,10 +114,12 @@ Estos atributos son privados solo los encargados del inventario tienen acceso a 
 * EliminarProducto(Int): Da repuesta enteros elimina la cantidad de productos. 
 * ModificarPrecio(Float): Modifica el precio de los productos. 
 * ModificarFechaCaducidad(Date): Modifical la fecha de caducidad de los productos. 
+
+Estas funciones son públicas tienen acceso los administradores y los proveedores aumentan la cantidad de inventario. Las funciones son para modificar la cantidad de productos y proveer productos para la venta en las sucursuales.
+
 ### Relaciones
 * Tiene relación con el administrador, proveedores, sucursales y productos.
 
-Estas funciones son públicas tienen acceso los administradores y los proveedores aumentan la cantidad de inventario. Las funciones son para modificar la cantidad de productos y proveer productos para la venta en las sucursuales.
 
 ## Carrito de compras
 ### Atributos
@@ -128,6 +137,7 @@ Estos atributos son privados y publicos, el usuario y los administradores tienen
 * Actualizar_Cantidad(void): Muestra la nueva cantidad total de productos despues de añadir o eliminar productos
 * Calcular_Precio_Total(double): Calcula el precio total sumando el precio de cada producto en el carrito
 
+### Relaciones
 Estas funciones son publicas, para que el usuario pueda gestionar su carrito.
 
 ## Reseñas
@@ -138,8 +148,6 @@ Estas funciones son publicas, para que el usuario pueda gestionar su carrito.
 * rating: Es tipo entero de 1 a 5 sirve para guardar la calificación del rating.
 * review_text: Es tipo texto tiene la función de permitir escribir el texto de la reseña.
 * date_review: Es tipo fecha guarda la fecha de la reseña.
-### Relaciones
-El carrito de compras tiene relación con el usuario, los productos y los pedidos.
 
 Estos atributos son privados y públicos tienen acceso tanto los usuarios como los encargados de las reseñas.
 
@@ -149,12 +157,14 @@ Estos atributos son privados y públicos tienen acceso tanto los usuarios como l
 * LeerReseña(): Es tipo texto permite leer la reseña escrita.
 * EliminarReseña(): Es tipo lógico permite eliminar la reseña de los productos.
 * ActualizarReseña(): Es tipo lógico permite actualizar la reseña antes ya públicada.
-### Relaciones
-* Tiene relación con los clientes y los pedidos.
 
 Estas funciones son públicas se utiliza para la realización de las reseñas de los pedidos.
 
-### Sucursal
+### Relaciones
+* Tiene relación con los clientes y los pedidos.
+
+
+## Sucursal
 
 > La sucursal es una infrastructura fisica que corresponde a un area de trabajo independiente
 
@@ -177,7 +187,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Una sucursal corresponde a una zona
 - Una sucursal tiene varios productos y/o puede producirlos
 
-### Zona
+## Zona
 
 > La zona es comúnmente como un identificador general de la ubicación (Ejemplo, Zona norte de merida).
 
@@ -196,7 +206,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 - Una zona puede tener multiples sucursales
 
-### Vehiculo
+## Vehiculo
 
 > Son los vehiculos asignados o registrados dentro de una sucursal cuales permite a los repartidores hacer su trabajo
 > Se relaciona al requisito RF-003 (No lo cumple directamente, pero se requiere para poder lograrlo en ambito fisico o humano), pues para el reparto optimo de productos require de un vehiculo
@@ -217,7 +227,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 - Un vehiculo puede tener varios repartidores (Ejemplo: Dependiendo del horario laboral, varios empleados pueden tener asignados este mismo)
 
-### Factura
+## Factura
 
 > Es una factura que involucra que se vendio, quien lo pidio, quien lo preparo, quien lo entregó, cuanto costo
 > Se relaciona al requerimiento RF-005 (Auditoria), pues con este se puede realizar un seguimiento compleo de ingresos y egresos, con el respaldo de datos relacionados
@@ -245,7 +255,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Una factura tiene un cocinero implicado
 - Una factura tiene una sucursal como origen implicada
 
-### Cocinero
+## Cocinero
 
 > Es un empleado con el cargo de cocinero, lo cual implica un nivel de acceso restringido pero ligeramente superior en algunas areas que clientes no pueden ver.
 > Este tiene un detalle, dado que comparte gran cantidad de atributos similares a repartidor, puede esperarse una unificación de estos dos en uno solo, siendo una entidad unificada como empleado.
@@ -273,7 +283,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Un cocinero esta afiliado a una sucursal
 - Un cocinero esta afiliado a un unico usuario (Referente a la cuenta que tiene email y password)
 
-### Repartidor_Cocinero
+## Repartidor_Cocinero
 
 > Este tiene un detalle, dado que comparte gran cantidad de atributos similares a repartidor, puede esperarse una unificación de estos dos en uno solo, siendo una entidad unificada como empleado.
 
