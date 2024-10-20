@@ -69,19 +69,19 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 
 ## Carrito de compras
 ### Atributos
-*ID_Carrito: Es de tipo entero designa el ID del carrito de compras
-*Productos: Es de tipo string guarda el nombre de los productos que se añaden al carrito
-*Cantidad_Total: Es de tipo entero muestra la cantidad de productos que hay guardados en el carrito
-*Precio_Total: Es de tipo double muestra el precio total de todos los productos incluidos en el carrito
+* ID_Carrito: Es de tipo entero designa el ID del carrito de compras
+* Productos: Es de tipo string guarda el nombre de los productos que se añaden al carrito
+* Cantidad_Total: Es de tipo entero muestra la cantidad de productos que hay guardados en el carrito
+* Precio_Total: Es de tipo double muestra el precio total de todos los productos incluidos en el carrito
 
 Estos atributos son privados y publicos, el usuario y los administradores tienen acceso a los datos.
 
 ### Funciones
-*Añadir_Producto(void): Añade productos al carrito
-*Eliminar_Producto(void): Elimina productos de manera individual
-*Vaciar_Carrito(void): Elimina todos los productos del carrito
-*Actualizar_Cantidad(void): Muestra la nueva cantidad total de productos despues de añadir o eliminar productos
-*Calcular_Precio_Total(double): Calcula el precio total sumando el precio de cada producto en el carrito
+* Añadir_Producto(void): Añade productos al carrito
+* Eliminar_Producto(void): Elimina productos de manera individual
+* Vaciar_Carrito(void): Elimina todos los productos del carrito
+* Actualizar_Cantidad(void): Muestra la nueva cantidad total de productos despues de añadir o eliminar productos
+* Calcular_Precio_Total(double): Calcula el precio total sumando el precio de cada producto en el carrito
 
 Estas funciones son publicas, para que el usuario pueda gestionar su carrito.
 
