@@ -488,3 +488,61 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con el inventario ya que en el inventario estan todos los productos
 - El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+
+## Traduccion_Pagina
+## Atributos
+Página Web (Page)
+
+- ID_Pagina: Es de tipo entero, designa el ID único de la página web.
+- URL_Original: Es de tipo string, guarda la URL de la página en español.
+- Idioma_Origen: Es de tipo string, indica el idioma de origen de la página (Español).
+- Idioma_Destino: Es de tipo string, indica el idioma de destino de la página traducida (Inglés).
+- Fecha_Creacion: Es de tipo datetime, registra la fecha en que se creó la entrada de la página.
+- Contenido_HTML_Original: Es de tipo string, contiene el HTML de la página en español.
+- Contenido_HTML_Traducido: Es de tipo string, contiene el HTML de la página traducida.
+- Status_Traduccion: Es de tipo enum, indica el estado de la traducción (pendiente, en proceso, completado).
+
+
+Texto (TextBlock)
+
+- ID_Texto: Es de tipo entero, designa el ID único del bloque de texto.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenece el texto.
+- Texto_Original: Es de tipo string, guarda el texto original en español.
+- Texto_Traducido: Es de tipo string, guarda el texto traducido al inglés.
+- Tipo_Texto: Es de tipo enum, define el tipo de texto (párrafo, título, meta descripción, etc.).
+- Estado_Traduccion: Es de tipo enum, indica el estado de la traducción del texto (pendiente, traducido, revisado).
+
+
+Metadatos (Metadata)
+
+- ID_Metadata: Es de tipo entero, designa el ID único del metadato.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenecen los metadatos.
+- Meta_Key: Es de tipo string, guarda la clave del metadato (ej. "title", "description").
+- Meta_Value_Original: Es de tipo string, contiene el valor original del metadato en español.
+- Meta_Value_Traducido: Es de tipo string, contiene el valor del metadato traducido al inglés.
+  
+## Funciones
+Página Web (Page)
+
+- Iniciar_Traduccion(void): Inicia el proceso de traducción de la página web.
+- Actualizar_Status(void): Actualiza el estado de la traducción de la página (pendiente, en proceso, completado).
+- Guardar_HTML_Traducido(void): Guarda el contenido HTML traducido de la página web.
+
+Texto (TextBlock)
+
+- Traducir_Texto(void): Traduce el bloque de texto del idioma original al destino.
+- Actualizar_Estado_Texto(void): Actualiza el estado de la traducción del texto (pendiente, traducido, revisado).
+
+Metadatos (Metadata)
+
+- Traducir_Meta(void): Traduce los metadatos de la página web al idioma destino.
+
+## Relaciones
+Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
+
+
+
+
+
+
+
