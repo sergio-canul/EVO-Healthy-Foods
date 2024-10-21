@@ -490,7 +490,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
 
 ## Traduccion_Pagina
-## Atributos
+### Atributos
 Página Web (Page)
 
 - ID_Pagina: Es de tipo entero, designa el ID único de la página web.
@@ -521,7 +521,7 @@ Metadatos (Metadata)
 - Meta_Value_Original: Es de tipo string, contiene el valor original del metadato en español.
 - Meta_Value_Traducido: Es de tipo string, contiene el valor del metadato traducido al inglés.
   
-## Funciones
+### Funciones
 Página Web (Page)
 
 - Iniciar_Traduccion(void): Inicia el proceso de traducción de la página web.
@@ -537,7 +537,7 @@ Metadatos (Metadata)
 
 - Traducir_Meta(void): Traduce los metadatos de la página web al idioma destino.
 
-## Relaciones
+### Relaciones
 Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
 
 
