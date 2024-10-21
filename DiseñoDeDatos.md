@@ -46,7 +46,26 @@
       - [Atributos\_Repartidor](#atributos_repartidor)
       - [Acciones\_Repartidor](#acciones_repartidor)
       - [Relaciones\_Repartidor](#relaciones_repartidor)
-
+  - [Pedido]
+      - [Atributos\_pedido](#atributos_pedido)
+      - [Acciones\_pedido](#acciones_pedido)
+      - [Relaciones\_pedido](#relaciones_pedido)
+  - [Categoria Producto]
+      - [Atributos\_Categoría Producto](#atributos_categoria_producto)
+      - [Acciones\_Categoría Producto](#acciones_categoria_producto)
+      - [Relaciones\_Categoría Producto](#relaciones_categoria_producto)
+  - [Propina repartidor]
+      - [Atributos\_Propina Repartidos](#atributos_propina_repartidor)
+      - [Acciones\_Propina Repartidos](#acciones_propina_repartidor)
+      - [Relaciones\_Propina Repartidos](#relaciones_propina_repartidor)
+  - [Pago cocineros]
+      - [Atributos\_Pago cocineros](#atributos_pago_cocineros)
+      - [Acciones\_Pago cocineros](#acciones_pago_cocineros)
+      - [Relaciones\_Pago cocineros](#acciones_pago_cocineros)
+  - [Sugerencias]
+      - [Atributos\_Sugerencias](#atributos_sugerencias)
+      - [Acciones\_Sugerencias](#acciones_sugerencias)
+      - [Relaciones\_Sugerencias](#relaciones_sugerencias)
 
 # Introducción
 
@@ -287,7 +306,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 > Este tiene un detalle, dado que comparte gran cantidad de atributos similares a repartidor, puede esperarse una unificación de estos dos en uno solo, siendo una entidad unificada como empleado.
 
-#### Atributos_Repartidor
+#### atributos_Repartidor
 
 - id_repartidor: Tipo int autoincremental como clave primaria a función de identificador del empleado
 - id_usuario: Permite relacional al empleado con su cuenta general (Permite hacer un login general en lugar de bifurcaciones)
@@ -299,7 +318,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - rfc: Tipo varchar o string que funciona como identificador de trabajador adicional
 - cuenta: Tipo varchar o string que permite proporcionar un numero de cuenta en el cual se le asginaría un sueldo
 
-#### Acciones_Repartidor
+#### acciones_Repartidor
 
 - Renunciar(): Permite a cualquier empleado presentar la renuncia a la empresa o sucursal, en este caso no muestra nada más que un mensaje de renuncia completa o no (Boleado) al empleado, además cambia el estado de este empleado como "Renuncia".
 - Cambio_sucursal(): El empleado puede solicitar un cambio de sucursal para seguir su labur, puede ser cambiado por gerentes
@@ -307,19 +326,72 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Recogida_pedidos(): El repartidor lo usa para marcar cuales productos estan siendo recogidos por el repartidor para la entrega de estos mismos.
 - Entregar_Pedido(): Simplemente requiere la participación del repartidor para confirmar que ido a entregar el producto al cliente, y el cliente para confirmar dicha entrega, puede servir como control de entrega y servicios.
 
-#### Relaciones_Repartidor
+#### relaciones_Repartidor
 
 - Un repartidor esta asingado a una sucursal
 - Un repartidor tiene asignado un vehiculo
 - Un repartidor esta afiliado a un unico usuario (Referente a cuenta donde esta email y password)
 
+#### atributos_pedido
 
+- Productos_comprados: Son los productos que se quiere comprar.
+- Dirección_de_envío: Ubicación geográfica en la que se entregarán los productos comprados por el usuario.
+- Indicaciones_adicionales: Indicaciones extra para ayudar al repartidor a entregar los productos.
+- Precio_total: Muestra el precio total del pedido.
 
+#### acciones_pedido
 
+- Método_de_pago(): Seleccionar método de pago.
+- Suma_de_precios(): Suma los precios de los productos.
 
+#### relaciones_pedido
 
+- Carrito de compras: Se relaciona con el carrito de compras porque las ID's de los productos que se encuentran en este van a servir para poder llamar a la clase productos que va a llamar a su vez a la base de datos del inventario para consultar datos.
+- Cliente: El cliente es quien ultimadamente confirma el pedido.
+- Reseñas: Con base en los productos comprados se hacen las reseñas, por lo que la clase pedidos es padre de la de reseñas.
+- Factura: Con base a la información que se recabe del pedido, se realizará la factura (impresión de los precios y el total del precio).
+- Pago: El pago se efectúa automáticamente después de que el repartidor confirme que entregó el pedido correspondiente.
+- Pedidos_cocineros: el pedido hace a la clase cocineros se le solicite un pedido.
 
+#### atributos_categoria_producto
 
+- id_categoria: Es la ID de la o las categorías en las que se clasifica cada producto.
+- nombre_categoria: Es el que describe brevemente la cateogoría que aparece adjuntada a los productos.
+- descripción: Es una descripción más completa sobre la categoría.
 
+#### acciones_categoria_producto
 
+- lista_categoría_por_producto(): Sirve para filtrar productos por categoría o categorías
 
+#### relaciones_cateogoria_producto
+
+- Producto: Es hija y componente del producto, ya que si no existiera el producto, no podrían existir categorías del mismo.
+
+#### atributos_propina_repartidor
+
+- id_repartidor: Id para identificar el repartidor.
+- Propina: Opción para dar o no la propina.
+- Fecha: Fecha en la que se entrega la propina.
+
+#### acciones_propina_repartidor
+
+- Monto_propina: Monto que se le dará de propina al repartidor (en caso de que el atributo "propina" sea verdadero).
+- añadir_monto(): Esta función añade el monto que se puso en los atributos.
+
+#### relaciones_propina_repartidor
+
+- Pago: La clase propina repartidor se relaciona directamente con el pago y es hija de esta porque la propina al repartidor es un pago opcional dentro del pago de los productos como tal.
+
+#### atributos_sugerencias
+
+- id_sugerencia: Le asigna una id a la sugerencia para poder localizarla y comprobar la efectividad de la misma posteriormente, para su evaluación.
+- razón_sugerencia: Es un valor booleano que es verdadero en caso de ser efectiva la sugerencia y falso en caso de no serla.
+- productos_sugeridos: Selecciona la lista de productos que sean afines a los gustos del usuario con base a sus interacciones con la página.
+
+#### acciones_sugerencias
+
+- mostrarSugerencias(id_sugerencia, razón_sugerencia): Muestra las sugerencias que aparezcan como "verdadero" y con las que el usuario probablemente tenga un interés.
+
+#### relaciones_sugerencias
+
+- Cliente: Las sugerencias se relacionan directamente con los usuarios registrados ya que permiten venderles mejor nuestros productos.
