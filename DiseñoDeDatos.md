@@ -66,6 +66,19 @@
       - [atributos\_sugerencias](#atributos_sugerencias)
       - [acciones\_sugerencias](#acciones_sugerencias)
       - [relaciones\_sugerencias](#relaciones_sugerencias)
+  - [Soporte](#Soporte)
+      -[Atributos\_Soporte](#atributos_soporte)
+      -[Acciones\_Soporte](#atributos_soporte)
+      -[Relaciones\_Soporte](#atributos_soporte)
+  - [Pago](#Pago)
+      -[Atributos\_Pago](#atributos_pago)
+      -[Acciones\_Pago](#acciones_pago)
+      -[Relaciones\_Pago](#relaciones_pago)
+  - [Producto](#Producto)
+      -[Atributos\_Producto](#atributos_producto)
+      -[Acciones\_Producto](#acciones_producto)
+      -[Relaciones\_Producto](#relaciones_productos)
+   
 
 
 # Introducción
@@ -420,3 +433,58 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 #### relaciones_sugerencias
 
 - Cliente: Las sugerencias se relacionan directamente con los usuarios registrados ya que permiten venderles mejor nuestros productos.
+
+## Soporte
+### Atributos_Soporte
+- id Chat: Es tipo entero que designa un número de identificación del chat.
+- Usuario: Es tipo string que designa un nombre de usuario.
+- Mensaje Inicial: Es tipo string que designa un texto de mensaje inicial.
+-Respuesta Soporte: Es tipo string que designa un texto de mensaje de respuesta.
+- Estado: Es tipo string que designa un mensaje de estado de el producto.
+- Fecha de creación: Es tipo date que designa una fecha en la que se crea la conversación.
+- Historial de Mensajes: Es tipo string que designa unos textos que contienen el historial de mensajes.
+- Agente Asignado: Es tipo string que designa un agente para la conversación.
+
+### Acciones_Soporte
+- Enviar Mensaje (String): Permite a los usuarios mandar un mensaje o duda de tipo (String) al soporte de la empresa.
+- Cerrar Chat (String): Permite a el usuario salir del chat al haber resuelto su problema o duda de tipo (String).
+- Asignar Agente (String): Es la asignación de un agente para la consulta de dudas o problemas de tipo (String).
+- Ver Historial (List): Es la posibilidad de poder ver el historial de mensajes de tipo (List) del chat.
+- Consultar Estado(): Solo te va a mostrar el estado de tu consulta o problema sin regresarte ningun mensaje ni nada.
+
+### Relaciones_Soporte
+- Un soporte esta afiliado a el administrador.
+
+## Pago
+### Atributos_Pago
+- Monto: Es un tipo double que designa el monto a pagar en numeros reales.
+- Fecha de pago: Es un tipo date que designa una fecha en la que se consolida el pago.
+- Método de pago: Es un tipo String que muestra el tipo de metodo de pago a usar.
+
+### Acciones_Pago
+- Realizar pago (): Solo te muestra el costo de el producto y al pagar se guarda o bien procesa el pago tipo (String)
+- Generar recibo electrónico (String): Solo te direcciona el recibo o confirmación del pago a un correo electronico sin regresar ni enviar  nada más.
+### Relaciones_Pago
+- Un pago esta relacionado con la propina del repartidor ya que se le paga por llevar el producto hasta el lugar donde lo pidieron.
+- El pago esta relacionado con la factura ya que se le hará registro del pago a través de una factura en el que estará registrado todo.
+
+## Producto 
+### Atributos_Producto
+- Nombre: Es tipo string ya que se guardará el registro de nombres del producto
+- Precio: Es tipo double del precio del producto.
+- Stock: Es tipo int ya que se ponen las existencias que son por unidades enteras.
+- Declaracion_nutrimental: Son tipo string ya que nos muestra unos caracteres donde se muestran los valores nutrimentales de los alimentos.
+
+### Acciones__Producto
+- Obtener Nombre (String): Obtiene el nombre del producto
+- Establecer Nombre (nombre= String): Nos muestra el nombre del producto y como se establece
+- ObtenerPrecio (Double): Otine el precio del producto en tipo reales
+- Conseguir Precio(Precio:Float): Nos consigue el precio del producto
+- Conseguir Stock(Int): Nos consigue el numero de unidades en existencia
+- Establecer Stock(stock=Int): Establece el numero de stock en existencia
+- Actualizar Stock(cantidad=Int): Nos actualiza el numero de stock en existencia
+
+### Relaciones_Producto
+- El producto se relaciona con el inventario ya que en el inventario estan todos los productos
+- El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
+- El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
