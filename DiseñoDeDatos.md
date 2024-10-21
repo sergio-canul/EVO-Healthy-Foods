@@ -52,7 +52,37 @@
 
 Esta página web tiene como objetivo ofrecer una plataforma para la venta de productos de fitness y comida saludable. Este documento detalla el diseño de datos necesario para soportar las funcionalidades clave del sistema.
 
-## Administrador
+## Usuario
+### Atributos
+
+* ID: Es entero designa un número de identificación
+* Username: string designa el nombre de usuario
+* Email: Es string designa el correo electronico
+* Password: Es string designa una contraseña encriptada
+
+### Funciones
+
+* Registrarse(String): Permite al usuario registrarse en la web
+* IniciarSesion(String): Permite iniciar sesión a partir de un registro+
+
+### Relaciones
+Tiene una relación de padre con Soporte, Cliente y Administrador
+
+## Cliente
+### Atributos
+* Dirección: String que almacena la dirección del cliente
+* MetodoDePago: String que almacena el método de pago preferido del cliente
+* NúmeroDeTelefono: String que almacena el número de teléfono del cliente.
+
+### Funciones
+* RealizarPedido(): permite realizar un nuevo pedido 
+* CancelarPedido(): Cancela un pedido realizado por el cliente
+
+### Relaciones
+Se relaciona con las clases, carrito de compras, cliente, notificación, sugerencias, pedido y reseña
+
+### Administrador
+
 ### Atributos
 * id_admin: Es entero designa un número de identificación del administrador.
 * Username: Es string desgina el nombre de usuario del administrador.
@@ -99,7 +129,7 @@ Estas funciones son públicas ya que los administradores, proveedores y el inven
 
 ## Inventario
 ### Atributos
-* Id_producto: Es tipo entero designa el numero de los productos del inventario. 
+* Id_producto: Es tipo entero designa el número de los productos del inventario. 
 * Nombre_producto: Es tipo string guarda el nombre del producto.
 * Categoría: Es tipo string designa la categoria del producto. 
 * Cantidad: Es tipo entero designa la cantidad de productos. 
@@ -120,6 +150,23 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 ### Relaciones
 * Tiene relación con el administrador, proveedores, sucursales y productos.
 
+## Notificaciones
+
+### Atributos
+* IdNotificación: String que almacena la identificación de la notificación
+* Tipo: String que almacena le tipo de notificación que recibirá
+* Fecha: String almacena la fecha del mensaje
+* Mensaje:String almacena el contenido de la notificación
+
+### Funciones
+
+* VerNotificació(): Muestra el contenido de la notificación
+* Eliminarnotificación(): Elimina la notificación
+* RecordarMasTarde(): Pide que la notificación vuelva a ser enviada más tarde
+
+### Relaciones
+
+Se relaciona con la clase cliente
 
 ## Carrito de compras
 ### Atributos
