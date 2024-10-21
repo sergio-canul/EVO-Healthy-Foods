@@ -78,7 +78,10 @@
       -[Atributos\_Producto](#atributos_producto)
       -[Acciones\_Producto](#acciones_producto)
       -[Relaciones\_Producto](#relaciones_productos)
-   
+  - [Traduccion de la pagina](#traduccion_pagina)
+      - [Atributos](#atributos-5)
+      - [Funciones](#funciones-5)
+      - [Relaciones](#relaciones-5)
 
 
 # Introducción
