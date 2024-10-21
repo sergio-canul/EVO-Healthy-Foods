@@ -31,3 +31,30 @@ Este nivel proporciona una vista general de cómo la empresa interactúa con su 
 * Uso de sistemas de seguimiento en linea para las entregas y la seguridad del repartidor.
 ### Cliente
 * Usuario de la página web o aplicación movil para el pedido de comida.
+
+## Contenedores
+
+### Servidor
+#### Funciónes
+El servidor es el contenedor encargado de alojar la página web y los servicios asociados a su vez responde a las solicitudes de los clientes y administra la lógica de negocio y las operaciones del sistema.
+* Contiene una aplicación web encargada de facilitar la navegación
+* Contiene una API encargada de darle funcionalidades a la página web
+* Contiene un sistema de autentificación, que sirve para verificar la identidad del admin, se conecta a la API para funcionar
+* Contiene un Background Worker, que se encarga de realizar las tareas en segundo plano
+* Contiene una base de datos relacional la cual sirve para guardar todos los datos modificados por el administrado
+
+#### Relaciones
+Se relaciona con el administrador, ya que este se encarga de su correcto funcionamiento, por otro, lado se relaciona con el sistema EVO-Healthy-Foods porque está se aloja en el servidor
+
+### Inventario
+#### Funciónes
+El inventario es un sistema dedicado al almacenamiento y gestión de los productos disponibles. Es responsable de registrar entradas, salidas y mantener actualizada la cantidad de productos en stock.
+* Contiene una aplicación web encargada de facilitar la navegación
+* Contiene una API encargada de darle funcionalidades a la página web
+* Contiene un sistema de autentificación, que sirve para verificar la identidad del admin, se conecta a la API para funcionar
+* Contiene un sistema de reportes, se encarga de generar informes periódicos o bajo demanda sobre el estado del inventario, las entradas y salidas de productos, los pedidos de proveedores, y otros datos relevantes para la gestión del almacén.
+* Contiene un sistema almacenamiento de archivos, gestiona el almacenamiento de archivos como imágenes de productos, documentos de proveedores, facturas, y otros archivos relacionados con la operación del almacén.
+* Contiene un sistema de escaneo de codigos de barras el cual sirve para registrar entradas y salidas del inventario de manera rápida y precisa mediante escáneres de código de barras.
+* Contiene una base de datos relacional la cual almacena toda la información sobre los productos, niveles de stock, movimientos de inventario, proveedores.
+#### Relaciones
+se relaciona con el administrador asi como con el sistema EVO-Healthy-Foods porque se encarga de gestionar los productos asi como de mandar los pedidos
