@@ -46,81 +46,36 @@
       - [Atributos\_Repartidor](#atributos_repartidor)
       - [Acciones\_Repartidor](#acciones_repartidor)
       - [Relaciones\_Repartidor](#relaciones_repartidor)
-
-  - [Pedido]
-      - [Atributos\_pedido](#atributos_pedido)
-      - [Acciones\_pedido](#acciones_pedido)
-      - [Relaciones\_pedido](#relaciones_pedido)
-  - [Categoria Producto]
-      - [Atributos\_Categoría Producto](#atributos_categoria_producto)
-      - [Acciones\_Categoría Producto](#acciones_categoria_producto)
-      - [Relaciones\_Categoría Producto](#relaciones_categoria_producto)
-  - [Propina repartidor]
-      - [Atributos\_Propina Repartidos](#atributos_propina_repartidor)
-      - [Acciones\_Propina Repartidos](#acciones_propina_repartidor)
-      - [Relaciones\_Propina Repartidos](#relaciones_propina_repartidor)
-  - [Pago cocineros]
-      - [Atributos\_Pago cocineros](#atributos_pago_cocineros)
-      - [Acciones\_Pago cocineros](#acciones_pago_cocineros)
-      - [Relaciones\_Pago cocineros](#acciones_pago_cocineros)
-  - [Sugerencias]
-      - [Atributos\_Sugerencias](#atributos_sugerencias)
-      - [Acciones\_Sugerencias](#acciones_sugerencias)
-      - [Relaciones\_Sugerencias](#relaciones_sugerencias)
-  - [Soporte](#Soporte)
-      -[Atributos\Soporte](#atributos_soporte)
-      -[Acciones\Soporte](#atributos_soporte)
-      -[Relaciones\Soporte](#atributos_soporte)
-  - [Pago](#Pago)
-      -[Atributos\Pago](#atributos_pago)
-      -[Acciones\Pago](#acciones_pago)
-      -[Relaciones\Pago](#relaciones_pago)
-  - [Producto](#Producto)
-      -[Atributos\Producto](#atributos_producto)
-      -[Acciones\Producto](#acciones_producto)
-      -[Relaciones\Producto](#relaciones_productos)
-
-
+  - [pedido](#pedido)
+      - [atributos\_pedido](#atributos_pedido)
+      - [acciones\_pedido](#acciones_pedido)
+      - [relaciones\_pedido](#relaciones_pedido)
+  - [Categoria\_producto](#categoria_producto)
+      - [atributos\_categoria\_producto](#atributos_categoria_producto)
+      - [acciones\_categoria\_producto](#acciones_categoria_producto)
+      - [relaciones\_categoria\_producto](#relaciones_categoria_producto)
+  - [propina\_repartidor](#propina_repartidor)
+      - [atributos\_propina\_repartidor](#atributos_propina_repartidor)
+      - [acciones\_propina\_repartidor](#acciones_propina_repartidor)
+      - [relaciones\_propina\_repartidor](#relaciones_propina_repartidor)
+  - [Pago\_cocineros](#pago_cocineros)
+      - [atributos\_pago\_cocineros](#atributos_pago_cocineros)
+      - [acciones\_pago\_cocinero](#acciones_pago_cocinero)
+      - [relaciones\_pago\_cocinero](#relaciones_pago_cocinero)
+  - [Sugerencias](#sugerencias)
+      - [atributos\_sugerencias](#atributos_sugerencias)
+      - [acciones\_sugerencias](#acciones_sugerencias)
+      - [relaciones\_sugerencias](#relaciones_sugerencias)
 
 
 # Introducción
 
 Esta página web tiene como objetivo ofrecer una plataforma para la venta de productos de fitness y comida saludable. Este documento detalla el diseño de datos necesario para soportar las funcionalidades clave del sistema.
 
-## Usuario
-### Atributos
-
-* ID: Es entero designa un número de identificación
-* Username: string designa el nombre de usuario
-* Email: Es string designa el correo electronico
-* Password: Es string designa una contraseña encriptada
-
-### Funciones
-
-* Registrarse(String): Permite al usuario registrarse en la web
-* IniciarSesion(String): Permite iniciar sesión a partir de un registro+
-
-### Relaciones
-Tiene una relación de padre con Soporte, Cliente y Administrador
-
-## Cliente
-### Atributos
-* Dirección: String que almacena la dirección del cliente
-* MetodoDePago: String que almacena el método de pago preferido del cliente
-* NúmeroDeTelefono: String que almacena el número de teléfono del cliente.
-
-### Funciones
-* RealizarPedido(): permite realizar un nuevo pedido 
-* CancelarPedido(): Cancela un pedido realizado por el cliente
-
-### Relaciones
-Se relaciona con las clases, carrito de compras, cliente, notificación, sugerencias, pedido y reseña
-
-### Administrador
-
+## Administrador
 ### Atributos
 * id_admin: Es entero designa un número de identificación del administrador.
-* Username: Es string desgina el nombre de usuario del administrador.
+* Username: Es string designa el nombre de usuario del administrador.
 * Email: Es string designa el correo electronico del administrador.
 * Password_encrypted: Es string designa una contraseña encriptada para el administrador por seguridad.
 * Login_Date: Es tipo date guarda la fecha del inicio de sesion del adiministrador.
@@ -164,7 +119,7 @@ Estas funciones son públicas ya que los administradores, proveedores y el inven
 
 ## Inventario
 ### Atributos
-* Id_producto: Es tipo entero designa el número de los productos del inventario. 
+* Id_producto: Es tipo entero designa el numero de los productos del inventario. 
 * Nombre_producto: Es tipo string guarda el nombre del producto.
 * Categoría: Es tipo string designa la categoria del producto. 
 * Cantidad: Es tipo entero designa la cantidad de productos. 
@@ -185,23 +140,6 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 ### Relaciones
 * Tiene relación con el administrador, proveedores, sucursales y productos.
 
-## Notificaciones
-
-### Atributos
-* IdNotificación: String que almacena la identificación de la notificación
-* Tipo: String que almacena le tipo de notificación que recibirá
-* Fecha: String almacena la fecha del mensaje
-* Mensaje:String almacena el contenido de la notificación
-
-### Funciones
-
-* VerNotificació(): Muestra el contenido de la notificación
-* Eliminarnotificación(): Elimina la notificación
-* RecordarMasTarde(): Pide que la notificación vuelva a ser enviada más tarde
-
-### Relaciones
-
-Se relaciona con la clase cliente
 
 ## Carrito de compras
 ### Atributos
@@ -369,7 +307,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 > Este tiene un detalle, dado que comparte gran cantidad de atributos similares a repartidor, puede esperarse una unificación de estos dos en uno solo, siendo una entidad unificada como empleado.
 
-#### atributos_Repartidor
+#### Atributos_Repartidor
 
 - id_repartidor: Tipo int autoincremental como clave primaria a función de identificador del empleado
 - id_usuario: Permite relacional al empleado con su cuenta general (Permite hacer un login general en lugar de bifurcaciones)
@@ -381,7 +319,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - rfc: Tipo varchar o string que funciona como identificador de trabajador adicional
 - cuenta: Tipo varchar o string que permite proporcionar un numero de cuenta en el cual se le asginaría un sueldo
 
-#### acciones_Repartidor
+#### Acciones_Repartidor
 
 - Renunciar(): Permite a cualquier empleado presentar la renuncia a la empresa o sucursal, en este caso no muestra nada más que un mensaje de renuncia completa o no (Boleado) al empleado, además cambia el estado de este empleado como "Renuncia".
 - Cambio_sucursal(): El empleado puede solicitar un cambio de sucursal para seguir su labur, puede ser cambiado por gerentes
@@ -389,11 +327,13 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Recogida_pedidos(): El repartidor lo usa para marcar cuales productos estan siendo recogidos por el repartidor para la entrega de estos mismos.
 - Entregar_Pedido(): Simplemente requiere la participación del repartidor para confirmar que ido a entregar el producto al cliente, y el cliente para confirmar dicha entrega, puede servir como control de entrega y servicios.
 
-#### relaciones_Repartidor
+#### Relaciones_Repartidor
 
 - Un repartidor esta asingado a una sucursal
 - Un repartidor tiene asignado un vehiculo
 - Un repartidor esta afiliado a un unico usuario (Referente a cuenta donde esta email y password)
+
+## pedido
 
 #### atributos_pedido
 
@@ -416,6 +356,8 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - Pago: El pago se efectúa automáticamente después de que el repartidor confirme que entregó el pedido correspondiente.
 - Pedidos_cocineros: el pedido hace a la clase cocineros se le solicite un pedido.
 
+## Categoria_producto
+
 #### atributos_categoria_producto
 
 - id_categoria: Es la ID de la o las categorías en las que se clasifica cada producto.
@@ -426,9 +368,11 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 - lista_categoría_por_producto(): Sirve para filtrar productos por categoría o categorías
 
-#### relaciones_cateogoria_producto
+#### relaciones_categoria_producto
 
 - Producto: Es hija y componente del producto, ya que si no existiera el producto, no podrían existir categorías del mismo.
+
+## propina_repartidor
 
 #### atributos_propina_repartidor
 
@@ -444,6 +388,24 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 #### relaciones_propina_repartidor
 
 - Pago: La clase propina repartidor se relaciona directamente con el pago y es hija de esta porque la propina al repartidor es un pago opcional dentro del pago de los productos como tal.
+
+## Pago_cocineros
+
+#### atributos_pago_cocineros
+
+- Horas_trabajadas_semana: Número de horas que el cocinero trabajó en la semana.
+- Sueldo_por_hora: Es el sueldo que se paga por hora.
+
+
+#### acciones_pago_cocinero
+
+- salario_total(): Es el resultado de multiplicar las horas trabajadas por el sueldo por hora.
+- pagar_salario(): Se le entrega el dinero al cocinero en su cuenta.
+
+#### relaciones_pago_cocinero
+* Cocinero: se relaciona con la clase cocinero porque a él se le conferirá el pago.
+
+## Sugerencias
 
 #### atributos_sugerencias
 
