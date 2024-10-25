@@ -11,6 +11,14 @@ El diseño arquitectonico de nuestra empresa muestra como es toda la estructura 
 
 ## Contexto
 Este nivel proporciona una vista general de cómo la empresa interactúa con su entorno es decir como se muestra el diseño por encima, y como interactuan las entidades (personas) con la empresa y el software.
+### Requisitos en los que se relaciona
+### RF-003
+El sistema gestionará los pedidos para asegurar una coordinación eficiente y rápida en su entrega, proporcionando seguimiento en tiempo real para los clientes.
+### RF-004
+El repartidor podrá visualizar la ruta más óptima para entregar el producto al cliente, así mismo el cliente deberá ser capaz de visualizar el seguimiento del paquete hasta su entrega.
+### RF-005
+El sistema proporcionará una visualización de los ingresos y egresos que se tienen en determinados periodos de tiempo, con las vistas requeridas para una auditoría financiera, bajo usuarios con niveles de acceso específicos
+
 ### Función del Diagrama Contexto
 El mapa inicia con el cliente, el cliente inicia sesión en un Sistema de Registro de usuario, que se encargada de registrar y verificar la información del usuario, luego el cliente tiene acceso a la página principal o a la aplicación móvil. Luego pasamos a la aplicación principal EVO HEALTHY Foods, que es el software principal de la empresa. 
 
