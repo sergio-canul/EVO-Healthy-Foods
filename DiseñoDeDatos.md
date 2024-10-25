@@ -472,6 +472,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 ### Relaciones_Soporte
 - Un soporte esta afiliado a el administrador.
+- Se relaciona con el Requerimiento etico.
 
 ## Pago
 ### Atributos_Pago
@@ -506,6 +507,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con el inventario ya que en el inventario estan todos los productos
 - El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+
 
 ## Traduccion_Pagina
 ### Atributos
@@ -557,10 +559,5 @@ Metadatos (Metadata)
 
 ### Relaciones
 Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
-
-
-
-
-
 
 
