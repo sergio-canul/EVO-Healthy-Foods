@@ -3,14 +3,20 @@
 - [Diseño de Datos para la Página Web EVO-Healthy-Foods](#diseño-de-datos-para-la-página-web-evo-healthy-foods)
 - [Introducción](#introducción)
   - [Administrador](#administrador)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona)
+    - [RF-016](#rf-016)
     - [Atributos](#atributos)
     - [Funciones](#funciones)
     - [Relaciones](#relaciones)
   - [Proveedores](#proveedores)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona-1)
+    - [RF-017](#rf-017)
     - [Atributos](#atributos-1)
     - [Funciones](#funciones-1)
     - [Relaciones](#relaciones-1)
   - [Inventario](#inventario)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona-2)
+    - [RF-018](#rf-018)
     - [Atributos](#atributos-2)
     - [Funciones](#funciones-2)
     - [Relaciones](#relaciones-2)
@@ -66,19 +72,22 @@
       - [atributos\_sugerencias](#atributos_sugerencias)
       - [acciones\_sugerencias](#acciones_sugerencias)
       - [relaciones\_sugerencias](#relaciones_sugerencias)
-  - [Soporte](#Soporte)
-      -[Atributos\_Soporte](#atributos_soporte)
-      -[Acciones\_Soporte](#atributos_soporte)
-      -[Relaciones\_Soporte](#atributos_soporte)
-  - [Pago](#Pago)
-      -[Atributos\_Pago](#atributos_pago)
-      -[Acciones\_Pago](#acciones_pago)
-      -[Relaciones\_Pago](#relaciones_pago)
-  - [Producto](#Producto)
-      -[Atributos\_Producto](#atributos_producto)
-      -[Acciones\_Producto](#acciones_producto)
-      -[Relaciones\_Producto](#relaciones_productos)
-   
+  - [Soporte](#soporte)
+    - [Atributos\_Soporte](#atributos_soporte)
+    - [Acciones\_Soporte](#acciones_soporte)
+    - [Relaciones\_Soporte](#relaciones_soporte)
+  - [Pago](#pago)
+    - [Atributos\_Pago](#atributos_pago)
+    - [Acciones\_Pago](#acciones_pago)
+    - [Relaciones\_Pago](#relaciones_pago)
+  - [Producto](#producto)
+    - [Atributos\_Producto](#atributos_producto)
+    - [Acciones\_\_Producto](#acciones__producto)
+    - [Relaciones\_Producto](#relaciones_producto)
+  - [Traduccion\_Pagina](#traduccion_pagina)
+    - [Atributos](#atributos-5)
+    - [Funciones](#funciones-5)
+    - [Relaciones](#relaciones-5)
 
 
 # Introducción
@@ -86,6 +95,9 @@
 Esta página web tiene como objetivo ofrecer una plataforma para la venta de productos de fitness y comida saludable. Este documento detalla el diseño de datos necesario para soportar las funcionalidades clave del sistema.
 
 ## Administrador
+### Requisitos en los que se relaciona
+### RF-016
+El sistema debe registrar las fechas y detalles de los cambios realizados por el administrador.
 ### Atributos
 * id_admin: Es entero designa un número de identificación del administrador.
 * Username: Es string designa el nombre de usuario del administrador.
@@ -109,6 +121,9 @@ Las funciones son privadas solo los administradores pueden realizar las funcione
 * Tiene relación con los proveedores, usuario, inventario, usuario y soporte.
 
 ## Proveedores
+### Requisitos en los que se relaciona
+### RF-017
+El sistema debe permitir registrar nuevos proveedores y debe proporcionar opciones de contacto de los proveedores.
 ### Atributos
 * Id_provider: Es tipo entero desinga un numero de identificación del proveedor.
 * Provider_Name: Es tipo string designa el nombre del proveedor.
@@ -131,6 +146,9 @@ Estas funciones son públicas ya que los administradores, proveedores y el inven
 
 
 ## Inventario
+### Requisitos en los que se relaciona
+### RF-018
+El sistema debe permitir agregar, modificar y eliminar productos del inventario.
 ### Atributos
 * Id_producto: Es tipo entero designa el numero de los productos del inventario. 
 * Nombre_producto: Es tipo string guarda el nombre del producto.
@@ -489,3 +507,57 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con el inventario ya que en el inventario estan todos los productos
 - El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+
+
+## Traduccion_Pagina
+### Atributos
+Página Web (Page)
+
+- ID_Pagina: Es de tipo entero, designa el ID único de la página web.
+- URL_Original: Es de tipo string, guarda la URL de la página en español.
+- Idioma_Origen: Es de tipo string, indica el idioma de origen de la página (Español).
+- Idioma_Destino: Es de tipo string, indica el idioma de destino de la página traducida (Inglés).
+- Fecha_Creacion: Es de tipo datetime, registra la fecha en que se creó la entrada de la página.
+- Contenido_HTML_Original: Es de tipo string, contiene el HTML de la página en español.
+- Contenido_HTML_Traducido: Es de tipo string, contiene el HTML de la página traducida.
+- Status_Traduccion: Es de tipo enum, indica el estado de la traducción (pendiente, en proceso, completado).
+
+
+Texto (TextBlock)
+
+- ID_Texto: Es de tipo entero, designa el ID único del bloque de texto.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenece el texto.
+- Texto_Original: Es de tipo string, guarda el texto original en español.
+- Texto_Traducido: Es de tipo string, guarda el texto traducido al inglés.
+- Tipo_Texto: Es de tipo enum, define el tipo de texto (párrafo, título, meta descripción, etc.).
+- Estado_Traduccion: Es de tipo enum, indica el estado de la traducción del texto (pendiente, traducido, revisado).
+
+
+Metadatos (Metadata)
+
+- ID_Metadata: Es de tipo entero, designa el ID único del metadato.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenecen los metadatos.
+- Meta_Key: Es de tipo string, guarda la clave del metadato (ej. "title", "description").
+- Meta_Value_Original: Es de tipo string, contiene el valor original del metadato en español.
+- Meta_Value_Traducido: Es de tipo string, contiene el valor del metadato traducido al inglés.
+  
+### Funciones
+Página Web (Page)
+
+- Iniciar_Traduccion(void): Inicia el proceso de traducción de la página web.
+- Actualizar_Status(void): Actualiza el estado de la traducción de la página (pendiente, en proceso, completado).
+- Guardar_HTML_Traducido(void): Guarda el contenido HTML traducido de la página web.
+
+Texto (TextBlock)
+
+- Traducir_Texto(void): Traduce el bloque de texto del idioma original al destino.
+- Actualizar_Estado_Texto(void): Actualiza el estado de la traducción del texto (pendiente, traducido, revisado).
+
+Metadatos (Metadata)
+
+- Traducir_Meta(void): Traduce los metadatos de la página web al idioma destino.
+
+### Relaciones
+Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
+
+
