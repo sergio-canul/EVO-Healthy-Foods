@@ -454,6 +454,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 ### Relaciones_Soporte
 - Un soporte esta afiliado a el administrador.
+- Se relaciona con el Requerimiento etico.
 
 ## Pago
 ### Atributos_Pago
