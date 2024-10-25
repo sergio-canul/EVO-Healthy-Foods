@@ -486,6 +486,8 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 ### Relaciones_Pago
 - Un pago esta relacionado con la propina del repartidor ya que se le paga por llevar el producto hasta el lugar donde lo pidieron.
 - El pago esta relacionado con la factura ya que se le hará registro del pago a través de una factura en el que estará registrado todo.
+- **RF-002**:El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
+- **Requerimientos de Seguridad**: La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 
 ## Producto 
 ### Atributos_Producto
@@ -507,6 +509,8 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con el inventario ya que en el inventario estan todos los productos
 - El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+- **RF-006**: El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
+- **RF-014**: El sistema contará con un apartado en la pantalla de inicio que mostrará los platillos que hayan detectados por el algoritmo.
 
 
 ## Traduccion_Pagina
