@@ -66,6 +66,22 @@
       - [atributos\_sugerencias](#atributos_sugerencias)
       - [acciones\_sugerencias](#acciones_sugerencias)
       - [relaciones\_sugerencias](#relaciones_sugerencias)
+  - [Soporte](#Soporte)
+      -[Atributos\_Soporte](#atributos_soporte)
+      -[Acciones\_Soporte](#atributos_soporte)
+      -[Relaciones\_Soporte](#atributos_soporte)
+  - [Pago](#Pago)
+      -[Atributos\_Pago](#atributos_pago)
+      -[Acciones\_Pago](#acciones_pago)
+      -[Relaciones\_Pago](#relaciones_pago)
+  - [Producto](#Producto)
+      -[Atributos\_Producto](#atributos_producto)
+      -[Acciones\_Producto](#acciones_producto)
+      -[Relaciones\_Producto](#relaciones_productos)
+  - [Traduccion de la pagina](#traduccion_pagina)
+      - [Atributos](#atributos-5)
+      - [Funciones](#funciones-5)
+      - [Relaciones](#relaciones-5)
 
 
 # Introducción
@@ -420,3 +436,116 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 #### relaciones_sugerencias
 
 - Cliente: Las sugerencias se relacionan directamente con los usuarios registrados ya que permiten venderles mejor nuestros productos.
+
+## Soporte
+### Atributos_Soporte
+- id Chat: Es tipo entero que designa un número de identificación del chat.
+- Usuario: Es tipo string que designa un nombre de usuario.
+- Mensaje Inicial: Es tipo string que designa un texto de mensaje inicial.
+-Respuesta Soporte: Es tipo string que designa un texto de mensaje de respuesta.
+- Estado: Es tipo string que designa un mensaje de estado de el producto.
+- Fecha de creación: Es tipo date que designa una fecha en la que se crea la conversación.
+- Historial de Mensajes: Es tipo string que designa unos textos que contienen el historial de mensajes.
+- Agente Asignado: Es tipo string que designa un agente para la conversación.
+
+### Acciones_Soporte
+- Enviar Mensaje (String): Permite a los usuarios mandar un mensaje o duda de tipo (String) al soporte de la empresa.
+- Cerrar Chat (String): Permite a el usuario salir del chat al haber resuelto su problema o duda de tipo (String).
+- Asignar Agente (String): Es la asignación de un agente para la consulta de dudas o problemas de tipo (String).
+- Ver Historial (List): Es la posibilidad de poder ver el historial de mensajes de tipo (List) del chat.
+- Consultar Estado(): Solo te va a mostrar el estado de tu consulta o problema sin regresarte ningun mensaje ni nada.
+
+### Relaciones_Soporte
+- Un soporte esta afiliado a el administrador.
+
+## Pago
+### Atributos_Pago
+- Monto: Es un tipo double que designa el monto a pagar en numeros reales.
+- Fecha de pago: Es un tipo date que designa una fecha en la que se consolida el pago.
+- Método de pago: Es un tipo String que muestra el tipo de metodo de pago a usar.
+
+### Acciones_Pago
+- Realizar pago (): Solo te muestra el costo de el producto y al pagar se guarda o bien procesa el pago tipo (String)
+- Generar recibo electrónico (String): Solo te direcciona el recibo o confirmación del pago a un correo electronico sin regresar ni enviar  nada más.
+### Relaciones_Pago
+- Un pago esta relacionado con la propina del repartidor ya que se le paga por llevar el producto hasta el lugar donde lo pidieron.
+- El pago esta relacionado con la factura ya que se le hará registro del pago a través de una factura en el que estará registrado todo.
+
+## Producto 
+### Atributos_Producto
+- Nombre: Es tipo string ya que se guardará el registro de nombres del producto
+- Precio: Es tipo double del precio del producto.
+- Stock: Es tipo int ya que se ponen las existencias que son por unidades enteras.
+- Declaracion_nutrimental: Son tipo string ya que nos muestra unos caracteres donde se muestran los valores nutrimentales de los alimentos.
+
+### Acciones__Producto
+- Obtener Nombre (String): Obtiene el nombre del producto
+- Establecer Nombre (nombre= String): Nos muestra el nombre del producto y como se establece
+- ObtenerPrecio (Double): Otine el precio del producto en tipo reales
+- Conseguir Precio(Precio:Float): Nos consigue el precio del producto
+- Conseguir Stock(Int): Nos consigue el numero de unidades en existencia
+- Establecer Stock(stock=Int): Establece el numero de stock en existencia
+- Actualizar Stock(cantidad=Int): Nos actualiza el numero de stock en existencia
+
+### Relaciones_Producto
+- El producto se relaciona con el inventario ya que en el inventario estan todos los productos
+- El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
+- El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+
+## Traduccion_Pagina
+### Atributos
+Página Web (Page)
+
+- ID_Pagina: Es de tipo entero, designa el ID único de la página web.
+- URL_Original: Es de tipo string, guarda la URL de la página en español.
+- Idioma_Origen: Es de tipo string, indica el idioma de origen de la página (Español).
+- Idioma_Destino: Es de tipo string, indica el idioma de destino de la página traducida (Inglés).
+- Fecha_Creacion: Es de tipo datetime, registra la fecha en que se creó la entrada de la página.
+- Contenido_HTML_Original: Es de tipo string, contiene el HTML de la página en español.
+- Contenido_HTML_Traducido: Es de tipo string, contiene el HTML de la página traducida.
+- Status_Traduccion: Es de tipo enum, indica el estado de la traducción (pendiente, en proceso, completado).
+
+
+Texto (TextBlock)
+
+- ID_Texto: Es de tipo entero, designa el ID único del bloque de texto.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenece el texto.
+- Texto_Original: Es de tipo string, guarda el texto original en español.
+- Texto_Traducido: Es de tipo string, guarda el texto traducido al inglés.
+- Tipo_Texto: Es de tipo enum, define el tipo de texto (párrafo, título, meta descripción, etc.).
+- Estado_Traduccion: Es de tipo enum, indica el estado de la traducción del texto (pendiente, traducido, revisado).
+
+
+Metadatos (Metadata)
+
+- ID_Metadata: Es de tipo entero, designa el ID único del metadato.
+- ID_Pagina: Es de tipo entero, referencia al ID de la página a la que pertenecen los metadatos.
+- Meta_Key: Es de tipo string, guarda la clave del metadato (ej. "title", "description").
+- Meta_Value_Original: Es de tipo string, contiene el valor original del metadato en español.
+- Meta_Value_Traducido: Es de tipo string, contiene el valor del metadato traducido al inglés.
+  
+### Funciones
+Página Web (Page)
+
+- Iniciar_Traduccion(void): Inicia el proceso de traducción de la página web.
+- Actualizar_Status(void): Actualiza el estado de la traducción de la página (pendiente, en proceso, completado).
+- Guardar_HTML_Traducido(void): Guarda el contenido HTML traducido de la página web.
+
+Texto (TextBlock)
+
+- Traducir_Texto(void): Traduce el bloque de texto del idioma original al destino.
+- Actualizar_Estado_Texto(void): Actualiza el estado de la traducción del texto (pendiente, traducido, revisado).
+
+Metadatos (Metadata)
+
+- Traducir_Meta(void): Traduce los metadatos de la página web al idioma destino.
+
+### Relaciones
+Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
+
+
+
+
+
+
+
