@@ -59,6 +59,16 @@ El inventario es un sistema dedicado al almacenamiento y gestión de los product
 #### Relaciones
 se relaciona con el administrador asi como con el sistema EVO-Healthy-Foods porque se encarga de gestionar los productos asi como de mandar los pedidos
 
+### Inventario V2
+#### Funciónes
+El inventario es un sistema dedicado al almacenamiento y gestión de los productos disponibles. Es responsable de registrar entradas, salidas y mantener actualizada la cantidad de productos en stock.
+* Contiene una base de datos especificamente para el inventario
+* Contiene una interfaz en la que se puede acceder a un informe de costos e ingresos para los contadores
+* Contiene un sistema que permite actualizar la base de datos por parte de la pagina web, la aplicación móvil o los proveedores
+* El inventario cuenta con un supervisor que se encarga de solicitar productos a los proveedores cuando es necesario y gestionar las entregas de productos a la sucursal
+#### Relaciones
+Se relaciona con el proveedor, el contador, los administradores, el sistema de EVO-Healthy-Foods y las sucursales.
+
 ### EVO HEALTHY FOODS
 El cliente entrará a la aplicación móvil o web y podrá iniciar sesión a la empresa .
 En la aplicación web se podrá hacer búsqueda y compras en el navegador y en la aplicación móvil estará limitada a la búsqueda, elección y compra de productos. Todo eso lo harán a partir de una API. En la parte de la app web pues se usará un endpoint de navegación y todos sus datos estarán en la base de datos principal. Por otro lado en la app móvil se navegará igual por una API y se podrán guardar las compras en un endpoint, este endpoint también estará compartido por la app web al igual que el endpoint para productos que ambos lo tendrán para poder ver el estado que tienen los productos; tanto el endpoint productos y compras sus datos estarán en la base de datos principal. Además la base de datos tendrá un respaldo externo a los contenedores  por si la BDD principal da un error. Por ultimo, si el cliente quiere hacer una compra de algún producto o bien comida saludable, se le pedirá una verificación de sus datos personales y de localización, luego de esto se procederá a con el sistema de pago que es la parte donde el cliente pagará el producto para y luego proceder con el envío
