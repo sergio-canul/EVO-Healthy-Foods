@@ -76,6 +76,8 @@
     - [RF-011](#rf-011)
     - [RF-012](#rf-012)
     - [RF-013](#rf-013)
+    - [RF-014](#rf-014)
+    - [RF-015](#rf-015)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
@@ -84,6 +86,7 @@
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
     - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
+    - [Requerimientos éticos](#requerimientos-éticos)
 
 # Introducción
 
@@ -344,17 +347,21 @@ El sistema mostrara los contenidos nutricionales del producto cada vez que el cl
 ### RF-007
 El usuario podra hacer uso de un carrito de compras al cual podra agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### RF-008
-El sistema mostrará las comidas disponibles en el primer plano.
+El sistema contará con un algoritmo que le mostrará al cliente platillos en los que haya detectado que ha mostrado interés.
 ### RF-009
 El sistema recomendará al usuario los complementos que normalmente se compran junto al alimento que elija comprar.
 ### RF-010
 El sistema enviará promociones si asi lo desea el usuario, de descuentos y promociones por compras en la página.
 ### RF-011
-El usuario podra cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
+El usuario podrá cancelar pedidos en un plazo de 24 hrs despues que lo pidio.
 ### RF-012
 El sistema deberá tener un traductor para permitirle al usuario cambiar el idioma al de su preferencia para poder navegar en nuestra página.
 ### RF-013
 El sistema debe ser compatible tanto en dispositivos moviles como en PC's con distinto OS.
+### RF-014
+El sistema contará con un apartado en la pantalla de inicio que mostrará los platillos que hayan detectados por el algoritmo.
+### RF-015
+El sistema será responsivo a través de todos los dispositivos que soporte.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
@@ -366,7 +373,7 @@ La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptaci
 ### Requerimientos de ubicación
 El sistema le preguntará al usuario si desea que se guarde su ubicación para agilizar futuros pedidos
 ### Requerimientos de la base de datos
-* El sistema mostrará estadísticas ordenadas que le sean pertinentes al área de marketing y finanzas.
+* El sistema alojará sus bases de datos en un lugar seguro para proteger la privacidad de los usuarios.
 * El sistema de base datos reflejará la cantidad de articulos disponibles para la compra y el precio de forma correcta.
 ### Requerimiento de la actualizacion de la pagina
 El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo a su popularidad, novedad y precios.
@@ -374,3 +381,6 @@ El sistema debe ser capaz de estar actualizando la lista de productos de acuerdo
 Debe tener un sistema de respaldo automático diario para asegurar la recuperación de datos en caso de fallo.
 ### Requerimieno del navegador 
 La página debe funcionar correctamente en los navegadores más populares y usados (Chrome, Firefox, Safari, Edge) y en dispositivos móviles.
+### Requerimientos éticos
+* En la página se aclarará de manera conscisa que los productos que vendemos deben ser acompañados de cuidados a la salud como el ejercicio físico y un buen sueño para evitar que los usuarios se sientan engañados por no ver resultados.
+* Nuestras bases de datos no guardarán las contraseñas, usarán un método de encriptación para asegurar la preservación de la calidad de los usuarios.
