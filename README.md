@@ -362,6 +362,12 @@ El sistema debe ser compatible tanto en dispositivos moviles como en PC's con di
 El sistema contará con un apartado en la pantalla de inicio que mostrará los platillos que hayan detectados por el algoritmo.
 ### RF-015
 El sistema será responsivo a través de todos los dispositivos que soporte.
+### RF-016
+El sistema debe registrar las fechas y detalles de los cambios realizados por el administrador.
+### RF-017
+El sistema debe permitir registrar nuevos proveedores y debe proporcionar opciones de contacto de los proveedores.
+### RF-018
+El sistema debe permitir agregar, modificar y eliminar productos del inventario.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
