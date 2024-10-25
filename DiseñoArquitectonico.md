@@ -72,6 +72,23 @@ Los módulos especializados y API utilizados en este contexto son los siguientes
 3. **Módulo de Postulación:** Recibe las solicitudes de empleo en la empresa, conectado a Recursos Humanos para su verificación y aprobación, utilizando el módulo de correo para notificar a los solicitantes.
 4. **Módulo de Factura:** Este módulo facilita la búsqueda de datos relacionados con artículos, productos y períodos de tiempo, asistiendo en las auditorías.
 
+## Relaciones del Módulo de compras
+
+> **RF-001**: El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
+> **RF-002**: El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
+> **RF-004**: El repartidor podrá visualizar la ruta más óptima para entregar el producto al cliente, así mismo el cliente deberá ser capaz de visualizar el seguimiento del paquete hasta su entrega.
+> **RF-005**: El sistema proporcionará una visualización de los ingresos y egresos que se tienen en determinados periodos de tiempo, con las vistas requeridas para una auditoría financiera, bajo usuarios con niveles de acceso específicos
+> **RF-018**: El sistema debe permitir agregar, modificar y eliminar productos del inventario.
+> **Requerimientos de Seguridad**: La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
+> **Requerimiento de la base de datos**: El sistema alojará sus bases de datos en un lugar seguro para proteger la privacidad de los usuarios.
+
+- Se relaciona con el requisito Rf-001, RF-002 en cuanto se trata del ingreso a la pagina, pues esto requiere de estar logueado para poder entrar, en el cual utiliza modulos de correo por seguiridad y notificaciones.
+- Relaciona al requisito RF-004 en el sentido de permitir localizar el pedido del repartidor y el destino de entrega.
+- Relaciona levemente al requisito RF-005 a nivel cliente, con esto refiere al momento de generar factura y proporcionarle a un cliente el historial de transacciones que ha hecho, esto siendo parcial para el cliente, en cuanto a los datos totales pueden ser procesados por el mismo modulo con un nivel de acceso superior (Ejemplo. Auditor).
+- Esta relacionado al requisito RF-018 por facilidad de la pagina, siendo en esencia el funcionamiento de un CRUD automatico, dado que al finalizar una compra de un pedido, es natural que se agregue la nueva transacción, se reste a la cantidad de productos del inventario, actualice los datos de estos, etc.
+- Se relaciona con la seguridad y la base de datos, es decir, un intermediario entre la base de datos y el backend, sirve como medida de seguridad que asegura la integridad de privacidad de los usuarios al ser automatico, dicho de otro modo, ninguna persona interna podría modificar datos personas del cliente o siquiera verlos, pues estos se encriptan; en cuanto a la base de datos permita evitar colapsos o inyecciones query.
+
+
 ## Contenedores
 
 ### Servidor
