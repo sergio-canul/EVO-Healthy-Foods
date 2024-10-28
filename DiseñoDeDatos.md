@@ -173,6 +173,9 @@ Estas funciones son públicas tienen acceso los administradores y los proveedore
 
 
 ## Carrito de compras
+### Requisitos en los que se relaciona
+### RF-007
+El usuario podrá hacer uso de un carrito de compras al cual podrá agregar todos los productos que desea comprar dandole click al boton de "agregar al carrito"
 ### Atributos
 * ID_Carrito: Es de tipo entero designa el ID del carrito de compras
 * Productos: Es de tipo string guarda el nombre de los productos que se añaden al carrito
