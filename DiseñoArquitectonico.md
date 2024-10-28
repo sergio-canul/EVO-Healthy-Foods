@@ -36,11 +36,11 @@ Este nivel proporciona una vista general de cómo la empresa interactúa con su 
 * Usuario de la página web o aplicación movil para el pedido de comida.
 
 
-# Módulo de Compras
+## Módulo de Compras
 
 Este módulo de compras abarca desde el momento en que el usuario ingresa a la página hasta la finalización de la compra de un producto.
 
-## Funcionamiento del Módulo de Compras
+### Funcionamiento del Módulo de Compras
 
 1. **Acceso Inicial:**
    Cuando un usuario accede a la página de la empresa, la interfaz se adapta al dispositivo utilizado (móvil o web). A través de una petición al servidor mediante HTTPS, se cargan los datos estáticos de la página, mostrando la página principal al público general. 
@@ -63,7 +63,7 @@ Este módulo de compras abarca desde el momento en que el usuario ingresa a la p
      2. Una vez que el pedido está listo, el repartidor recibe la información necesaria para la entrega. Utilizando el módulo de ubicación bidireccional, tanto el cliente como el repartidor pueden realizar un seguimiento de la entrega.
      3. Al recibir el pedido, el cliente confirma la entrega y el repartidor actualiza el estado del pedido en la base de datos como "entregado".
 
-## Módulos del Módulo de Compras
+### Módulos del Módulo de Compras
 
 Los módulos especializados y API utilizados en este contexto son los siguientes:
 
@@ -72,7 +72,7 @@ Los módulos especializados y API utilizados en este contexto son los siguientes
 3. **Módulo de Postulación:** Recibe las solicitudes de empleo en la empresa, conectado a Recursos Humanos para su verificación y aprobación, utilizando el módulo de correo para notificar a los solicitantes.
 4. **Módulo de Factura:** Este módulo facilita la búsqueda de datos relacionados con artículos, productos y períodos de tiempo, asistiendo en las auditorías.
 
-## Relaciones del Módulo de compras
+### Relaciones del Módulo de compras
 
 > **RF-001**: El sistema deberá reconocer de manera efectiva el correo y contraseña del usuario al iniciar sesión para poder realizar cualquier compra en la página web.
 > **RF-002**: El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
@@ -87,6 +87,41 @@ Los módulos especializados y API utilizados en este contexto son los siguientes
 - Relaciona levemente al requisito RF-005 a nivel cliente, con esto refiere al momento de generar factura y proporcionarle a un cliente el historial de transacciones que ha hecho, esto siendo parcial para el cliente, en cuanto a los datos totales pueden ser procesados por el mismo modulo con un nivel de acceso superior (Ejemplo. Auditor).
 - Esta relacionado al requisito RF-018 por facilidad de la pagina, siendo en esencia el funcionamiento de un CRUD automatico, dado que al finalizar una compra de un pedido, es natural que se agregue la nueva transacción, se reste a la cantidad de productos del inventario, actualice los datos de estos, etc.
 - Se relaciona con la seguridad y la base de datos, es decir, un intermediario entre la base de datos y el backend, sirve como medida de seguridad que asegura la integridad de privacidad de los usuarios al ser automatico, dicho de otro modo, ninguna persona interna podría modificar datos personas del cliente o siquiera verlos, pues estos se encriptan; en cuanto a la base de datos permita evitar colapsos o inyecciones query.
+
+
+## Módulo de Empleados
+
+### Descripción General
+
+El Módulo de Empleados tiene como objetivo fundamental la visualización y gestión del proceso interno de compensación salarial y recolección de datos relacionados con el capital monetario de la empresa durante un período temporal determinado. Este módulo es una pieza clave para la administración financiera, ya que permite una adecuada supervisión de las transacciones relacionadas con los ingresos y egresos de la organización.
+
+### Funcionamiento del Módulo
+
+1. **Proceso de Pago:** El personal interno de la organización recibe su remuneración a través del módulo de pago, el cual efectúa el depósito correspondiente en la cuenta del empleado. Este proceso está interconectado con el módulo de facturación, que genera automáticamente una factura basada en la información extraída de la base de datos. Posteriormente, esta factura se envía al empleado a través del módulo de correo electrónico. Este flujo de trabajo automatizado asegura que los pagos se realicen conforme a los datos registrados para cada empleado. Además, una vez concretada la transacción, la base de datos se actualiza en tiempo real, reflejando los cambios en los registros salariales y de empleados.
+2. **Administración de la Base de Datos:** El administrador de la base de datos posee un control semi-completo sobre la misma, desempeñando un rol de supervisión sobre el gestor de la base de datos. Este último actúa como intermediario, limitando la comunicación directa y sin filtros entre los usuarios y la base de datos, funcionando así como un sistema de backend. El administrador también tiene la capacidad de realizar respaldos periódicos de la base de datos, asegurando la integridad y disponibilidad de la información.
+3. **Acceso para Auditores y Contadores:** Los auditores y personal del área de contabilidad pueden interactuar con una API interna que ofrece una amplia variedad de endpoints para tareas específicas. Estos endpoints permiten la consulta y el cálculo de datos estadísticos basados en la información almacenada en la base de datos, facilitando así el análisis y la auditoría de las transacciones financieras.
+
+### Relación con los Requerimientos
+> **Requerimiento RF-005**: El sistema proporcionará visualización de ingresos y egresos en períodos determinados, con vistas adaptadas para auditorías financieras y usuarios con niveles de acceso específicos.
+
+- Este requerimiento se vincula directamente con el Módulo de Empleados en el ámbito de auditoría y seguimiento financiero. Los empleados tienen acceso a información general, como su historial de pagos, mientras que los auditores, con niveles de acceso superiores, pueden acceder a datos más específicos y detallados, permitiendo un análisis exhaustivo de las transacciones.
+
+### Complementos del Módulo de Empleados
+
+1. **Módulo de Correo:** Este componente se encarga de recibir datos, incluyendo mensajes y archivos adjuntos, y de enviarlos al correo electrónico correspondiente, garantizando una comunicación efectiva.
+2. **Módulo de Pago:** Este módulo interactúa con una API externa para garantizar la seguridad y el cumplimiento normativo de las transacciones, actuando como intermediario en la verificación y confirmación de los pagos realizados.
+3. **Módulo de Factura:** Facilita la búsqueda de información relacionada con productos, artículos y períodos de tiempo, apoyando las auditorías y asegurando que toda la información relevante esté fácilmente accesible.
+
+#### API de Contabilidad
+
+> La API de contabilidad se considera una subparte del sistema, diseñada para realizar cálculos de datos y recolección de información mediante consultas a la base de datos. Esta API se basa en vistas predefinidas o subconsultas con diversos niveles de filtrado.
+
+- **Endpoints:**
+  - **Resumenes:** Recopila datos de manera general sin filtros o aplicando filtros categóricos dentro de un período de tiempo especificado.
+  - **Específicos:** Requiere varios parámetros para su óptima eficiencia, permitiendo consultas complejas que pueden llegar a múltiples niveles de subconsultas, con el fin de extraer información específica y detallada. 
+
+Este enfoque técnico y estructurado asegura que el Módulo de Empleados no solo cumpla con las necesidades operativas de la organización, sino que también garantice una auditoría y supervisión efectivas en todas las transacciones financieras.
+
 
 
 ## Contenedores
