@@ -384,4 +384,3 @@ La página debe funcionar correctamente en los navegadores más populares y usad
 ### Requerimientos éticos
 * En la página se aclarará de manera conscisa que los productos que vendemos deben ser acompañados de cuidados a la salud como el ejercicio físico y un buen sueño para evitar que los usuarios se sientan engañados por no ver resultados.
 * Nuestras bases de datos no guardarán las contraseñas, usarán un método de encriptación para asegurar la preservación de la calidad de los usuarios.
-HOLA
