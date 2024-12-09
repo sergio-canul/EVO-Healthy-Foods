@@ -3,14 +3,20 @@
 - [Diseño de Datos para la Página Web EVO-Healthy-Foods](#diseño-de-datos-para-la-página-web-evo-healthy-foods)
 - [Introducción](#introducción)
   - [Administrador](#administrador)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona)
+    - [RF-016](#rf-016)
     - [Atributos](#atributos)
     - [Funciones](#funciones)
     - [Relaciones](#relaciones)
   - [Proveedores](#proveedores)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona-1)
+    - [RF-017](#rf-017)
     - [Atributos](#atributos-1)
     - [Funciones](#funciones-1)
     - [Relaciones](#relaciones-1)
   - [Inventario](#inventario)
+    - [Requisitos en los que se relaciona](#requisitos-en-los-que-se-relaciona-2)
+    - [RF-018](#rf-018)
     - [Atributos](#atributos-2)
     - [Funciones](#funciones-2)
     - [Relaciones](#relaciones-2)
@@ -66,22 +72,22 @@
       - [atributos\_sugerencias](#atributos_sugerencias)
       - [acciones\_sugerencias](#acciones_sugerencias)
       - [relaciones\_sugerencias](#relaciones_sugerencias)
-  - [Soporte](#Soporte)
-      -[Atributos\_Soporte](#atributos_soporte)
-      -[Acciones\_Soporte](#atributos_soporte)
-      -[Relaciones\_Soporte](#atributos_soporte)
-  - [Pago](#Pago)
-      -[Atributos\_Pago](#atributos_pago)
-      -[Acciones\_Pago](#acciones_pago)
-      -[Relaciones\_Pago](#relaciones_pago)
-  - [Producto](#Producto)
-      -[Atributos\_Producto](#atributos_producto)
-      -[Acciones\_Producto](#acciones_producto)
-      -[Relaciones\_Producto](#relaciones_productos)
-  - [Traduccion de la pagina](#traduccion_pagina)
-      - [Atributos](#atributos-5)
-      - [Funciones](#funciones-5)
-      - [Relaciones](#relaciones-5)
+  - [Soporte](#soporte)
+    - [Atributos\_Soporte](#atributos_soporte)
+    - [Acciones\_Soporte](#acciones_soporte)
+    - [Relaciones\_Soporte](#relaciones_soporte)
+  - [Pago](#pago)
+    - [Atributos\_Pago](#atributos_pago)
+    - [Acciones\_Pago](#acciones_pago)
+    - [Relaciones\_Pago](#relaciones_pago)
+  - [Producto](#producto)
+    - [Atributos\_Producto](#atributos_producto)
+    - [Acciones\_\_Producto](#acciones__producto)
+    - [Relaciones\_Producto](#relaciones_producto)
+  - [Traduccion\_Pagina](#traduccion_pagina)
+    - [Atributos](#atributos-5)
+    - [Funciones](#funciones-5)
+    - [Relaciones](#relaciones-5)
 
 
 # Introducción
@@ -89,6 +95,9 @@
 Esta página web tiene como objetivo ofrecer una plataforma para la venta de productos de fitness y comida saludable. Este documento detalla el diseño de datos necesario para soportar las funcionalidades clave del sistema.
 
 ## Administrador
+### Requisitos en los que se relaciona
+### RF-016
+El sistema debe registrar las fechas y detalles de los cambios realizados por el administrador.
 ### Atributos
 * id_admin: Es entero designa un número de identificación del administrador.
 * Username: Es string designa el nombre de usuario del administrador.
@@ -112,6 +121,9 @@ Las funciones son privadas solo los administradores pueden realizar las funcione
 * Tiene relación con los proveedores, usuario, inventario, usuario y soporte.
 
 ## Proveedores
+### Requisitos en los que se relaciona
+### RF-017
+El sistema debe permitir registrar nuevos proveedores y debe proporcionar opciones de contacto de los proveedores.
 ### Atributos
 * Id_provider: Es tipo entero desinga un numero de identificación del proveedor.
 * Provider_Name: Es tipo string designa el nombre del proveedor.
@@ -134,6 +146,9 @@ Estas funciones son públicas ya que los administradores, proveedores y el inven
 
 
 ## Inventario
+### Requisitos en los que se relaciona
+### RF-018
+El sistema debe permitir agregar, modificar y eliminar productos del inventario.
 ### Atributos
 * Id_producto: Es tipo entero designa el numero de los productos del inventario. 
 * Nombre_producto: Es tipo string guarda el nombre del producto.
@@ -457,6 +472,7 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 
 ### Relaciones_Soporte
 - Un soporte esta afiliado a el administrador.
+- Se relaciona con el Requerimiento etico.
 
 ## Pago
 ### Atributos_Pago
@@ -470,6 +486,8 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 ### Relaciones_Pago
 - Un pago esta relacionado con la propina del repartidor ya que se le paga por llevar el producto hasta el lugar donde lo pidieron.
 - El pago esta relacionado con la factura ya que se le hará registro del pago a través de una factura en el que estará registrado todo.
+- **RF-002**:El sistema tendrá que hacer envío de un correo electronico para asegurar que se completo el registro de pago del cliente en nuestros productos.
+- **Requerimientos de Seguridad**: La pagina debe implementar autenticación segura, como lo es HTTPS, y encriptación de datos sensibles, por ejemplo contraseñas y datos bancarios.
 
 ## Producto 
 ### Atributos_Producto
@@ -491,6 +509,9 @@ Estas funciones son públicas se utiliza para la realización de las reseñas de
 - El producto se relaciona con el inventario ya que en el inventario estan todos los productos
 - El producto se relaciona con el carrito de compras ya que el producto al ser comprado se va al carrito de compras que es donde se espera ser pagado.
 - El producto se relaciona con la categoría producto ya que el producto estan en distintas categorías de producto.
+- **RF-006**: El sistema mostrara los contenidos nutricionales del producto cada vez que el cliente pase el raton sobre este.
+- **RF-014**: El sistema contará con un apartado en la pantalla de inicio que mostrará los platillos que hayan detectados por el algoritmo.
+
 
 ## Traduccion_Pagina
 ### Atributos
@@ -542,10 +563,5 @@ Metadatos (Metadata)
 
 ### Relaciones
 Las funciones de Página Web, Texto y Metadatos son públicas para que los traductores y administradores puedan gestionar el proceso de traducción de manera eficiente.
-
-
-
-
-
 
 
