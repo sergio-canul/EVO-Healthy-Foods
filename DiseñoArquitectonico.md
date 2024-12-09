@@ -11,7 +11,7 @@ El diseño arquitectonico de nuestra empresa muestra como es toda la estructura 
 
 ## Contexto
 Este nivel proporciona una vista general de cómo la empresa interactúa con su entorno es decir como se muestra el diseño por encima, y como interactuan las entidades (personas) con la empresa y el software.
-Autor: Sergio Alexander Canul Uicab
+* Autor: Sergio Alexander Canul Uicab.
 ![Imagen contexto del C4](Diagramas/ContextoSergioC4.drawio.png) 
 ### Requisitos en los que se relaciona
 ### RF-003
