@@ -20,12 +20,10 @@ El repartidor podrá visualizar la ruta más óptima para entregar el producto a
 El sistema proporcionará una visualización de los ingresos y egresos que se tienen en determinados periodos de tiempo, con las vistas requeridas para una auditoría financiera, bajo usuarios con niveles de acceso específicos
 
 ### Función del Diagrama Contexto
-El mapa inicia con el cliente, el cliente inicia sesión en un Sistema de Registro de usuario, que se encargada de registrar y verificar la información del usuario, luego el cliente tiene acceso a la página principal o a la aplicación móvil. Luego pasamos a la aplicación principal EVO HEALTHY Foods, que es el software principal de la empresa. 
-
-De ahí se divide en 5 secciones, a la izquierda se encuentra el servidor que se encarga de mantener el servidor de la página web del sistema. Arriba se encuentra el administrador, que se encarga de administrar el sistema y el funcionamiento de general de la empresa. A un lado se encuentra la base de datos en donde tiene las opciones de leer y escribir los datos de la empresa en la base de datos, que lo mantiene un ingeniero de datos encargado de optimizar, modificar y mantener la base de datos. Una última bifurcación que hay en el sistema principal es al momento de que el usuario quiera realizar pedidos en la página, primero se verifica y actualiza las existencias de los productos con el inventario, luego el sistema se encarga de procesar el pedido al sistema de pedidos, se realiza la verificación de la compra del usuario, para prevenir compras accidentales o robos, se procede al pago del pedido en un sistema de pago, con la posibilidad de optar por proveedores de pago externos  como paypal o sistemas bancarios como Santander bbva, bancomer, o incluso pago en efectivo en Oxxo. Una vez procedido el pago se realiza la búsqueda de los productos en el inventario. 
-
-Un proveedor es el encargado de proveer productos al inventario para la realización de los platillos o suplementos alimenticios, un contador es el responsable de registrar los ingresos y realizar las cuentas del inventario. Regresando al inventario se encarga de abastecer la infraestructura de la sucursal en donde se venden los productos y es donde se prepararán los pedidos. El cual tiene un sistema de geolocalización de los pedidos y el repartidor de la empresa, para mantener seguridad del repartidor y que el usuario pueda localizar el pedido. Por ultimo una vez que se escoge un repartidor para enviar el pedido se envía al cliente y se repite el ciclo.
-
+El sistema empieza en el cliente entrando a la página que luego, le pedira iniciar sesión mediante un sistema de registro, luego a la izquierda esta la entidad del servidor de la página, arriba se encuentra el administrador del sistema, arriba a la derecha se encuentra la base de datos que guarda los datos de la página con un ingeniero de datos que se encarga de mantenerla.
+A la derecha se divide en 2, abajo se tiene los sistemas de pedidos, verificación y pago que realizan el pedido del cliente. A la derecha del sistema principal se encuentra el inventario.
+Del inventario arriba se encuentra el proveedor de los productos y a la derecha el contador encargado. A la derecha y abajo se encuentran las sucursales.
+En los sucursales salen los pedidos al repartidor y tiene un sistema de geolocalización del pedido para encontrar al repartidor y al pedido. Luego se regresa al cliente.
 ### Entidades
 #### Administrador(Person)
 * Es el que administra todo el sistema y realiza modificaciones en el inventario.
@@ -49,8 +47,18 @@ Un proveedor es el encargado de proveer productos al inventario para la realizac
 * Trabajador de la empresa encargado de repartir comida de la empresa desde las sucursales.
 #### Sistemas de geolocalización(Software System)
 * Uso de sistemas de seguimiento en linea para las entregas y la seguridad del repartidor.
-#### Cliente
+#### Cliente(Person)
 * Usuario de la página web o aplicación movil para el pedido de comida.
+#### Sistemas de Registro de usuario(Software System)
+* Sistema encargado de registrar e iniciar sesion.
+#### Base de Datos(Data base)
+* Guarda toda la información del sistema en la base de datos.
+#### Ingeniero de datos(Person)
+* Responsable de optimizar y mantener la base de datos para almacenar la información.
+#### Sistema de pedidos(Software System)
+* Realiza el pedido en la página web.
+#### Pedido
+* El pedido de comida o suplemento alimenticio.
 
 ## Módulo de Compras
 
