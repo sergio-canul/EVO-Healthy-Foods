@@ -74,7 +74,7 @@
 
 ## Menu_desplegable
 
-![Alt text](./Interfaz/Interfaz_menu_desplegable.svg)
+![Alt text](./Interfaz/Interfaz_menu_desplegable(Andre).svg)
 
 ### Componentes_menu_Desplegable
 
