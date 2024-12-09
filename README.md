@@ -78,14 +78,21 @@
     - [RF-013](#rf-013)
     - [RF-014](#rf-014)
     - [RF-015](#rf-015)
+    - [RF-016](#rf-016)
+    - [RF-017](#rf-017)
+    - [RF-018](#rf-018)
+    - [RF-019](#rf-019)
+    - [RF-020](#rf-020)
+    - [RF-021](#rf-021)
   - [Requerimientos No Funcionales](#requerimientos-no-funcionales)
     - [Requerimientos del Producto](#requerimientos-del-producto)
     - [Requerimientos de Seguridad](#requerimientos-de-seguridad)
-    - [Requerimientos de la página](#requerimiento-de-la-página)
     - [Requerimientos de la entrega](#requerimientos-de-la-entrega)
     - [Requerimientos de ubicación](#requerimientos-de-ubicación)
     - [Requerimientos de la base de datos](#requerimientos-de-la-base-de-datos)
     - [Requerimiento de la actualizacion de la pagina](#requerimiento-de-la-actualizacion-de-la-pagina)
+    - [Requerimiento de la página](#requerimiento-de-la-página)
+    - [Requerimieno del navegador](#requerimieno-del-navegador)
     - [Requerimientos éticos](#requerimientos-éticos)
 
 # Introducción
@@ -368,6 +375,12 @@ El sistema debe registrar las fechas y detalles de los cambios realizados por el
 El sistema debe permitir registrar nuevos proveedores y debe proporcionar opciones de contacto de los proveedores.
 ### RF-018
 El sistema debe permitir agregar, modificar y eliminar productos del inventario.
+### RF-019
+El sistema debe mostrar las recetas favoritas al darle click en comidas favoritas.
+### RF-020
+El sistema debe mostrar las recetas al darle click en cualquier commida favorita.
+### RF-021
+El sistema mostrará un apartado de pedido después del pago para poder localizar el progreso que tenga el mismo a la hora de alcanzar la ubicación del usuario.
 ## Requerimientos No Funcionales
 ### Requerimientos del Producto
 Los usuarios tendrán un plazo de 3 días para poder pagar cualquier producto comprado desde la página de EVO Healthy Foods, mediante pago por tarjeta de credito o debito, pago por Paypal, Transferencia bancaria u OXXO.
