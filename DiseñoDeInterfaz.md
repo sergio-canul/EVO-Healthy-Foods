@@ -250,3 +250,30 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 
 - Label_especifico: Muestra más detalles sobre los datos del gráfico, lo que es esencial para auditores que necesiten información específica sobre las pérdidas.
   > Relación con Requerimientos Funcionales (RF-005): Proporciona un desglose más preciso de las pérdidas, facilitando la comprensión de los datos que no se presentan completamente en el gráfico.
+
+## Interfaz principal repartidor
+
+![Alt text](./Interfaz/PantallaPrincipalRepartidor.JPG)
+
+## Historial de pedidos repartidor
+
+![Alt text](./Interfaz/HistorialPedidosRepartidor.JPG)
+
+## Pestaña de pedidos en espera
+
+![Alt text](./Interfaz/PedidosEsperaRepartidor.JPG)
+
+## Pedidos en curso
+
+![Alt text](./Interfaz/PedidosEnCursoRepartidor.JPG)
+
+## Mensajes y notificaciones de repartidor
+
+![Alt text](./Interfaz/MensajesNotificacionesRepartidor.JPG)
+
+## Historial de compras
+![Alt text](./Interfaz/historial.SVG)
+
+## Soporte
+![Alt text](./Interfaz/Soporte 1.SVG)
+ 
