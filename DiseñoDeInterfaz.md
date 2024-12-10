@@ -287,10 +287,10 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ![Alt text](./Interfaz/MensajesNotificacionesRepartidor.JPG)
 
 ## Historial de compras
-![Alt text](./Interfaz/historial.SVG)
+![Alt text](./Interfaz/historial_Ricardo.svg)
 
 ## Soporte
-![Alt text](./Interfaz/Soporte 1.SVG)
+![Alt text](./Interfaz/Soporte_Ricardo.svg)
 
 # Configuración
 * Autor: Sergio Alexander Canul Uicab
@@ -331,3 +331,9 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 * Muestra el agregamiento al carrito de ejemplo de 4 de los alimentos anteriores.
 
 ![Res 3](Interfaz/Recetas%20favoritas3%20(Sergio%20Canul).svg)
+
+## Sistema de pago
+![Alt text](./Interfaz/SistemaDePago_Edrei.svg)
+
+## Notificaciones
+![Alt text](./Interfaz/SistemaDePago_Edrei.svg))
