@@ -270,3 +270,10 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ## Mensajes y notificaciones de repartidor
 
 ![Alt text](./Interfaz/MensajesNotificacionesRepartidor.JPG)
+
+## Historial de compras
+![Alt text](./Interfaz/historial.SVG)
+
+## Soporte
+![Alt text](./Interfaz/Soporte 1.SVG)
+ 
