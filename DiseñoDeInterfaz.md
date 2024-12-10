@@ -337,3 +337,9 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 
 ## Notificaciones
 ![Alt text](./Interfaz/SistemaDePago_Edrei.svg))
+
+## Sistema de facturacion
+![Factura](https://github.com/user-attachments/assets/8c3640df-c6ac-41c3-8e7b-2448d9e0ca0e)
+
+## Sistema de sucursales
+![Sucursales](https://github.com/user-attachments/assets/5a834c62-44dc-48bb-8f3b-aaa122fb8bc1)
