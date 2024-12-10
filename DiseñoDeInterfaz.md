@@ -252,3 +252,7 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
   > Relación con Requerimientos Funcionales (RF-005): Proporciona un desglose más preciso de las pérdidas, facilitando la comprensión de los datos que no se presentan completamente en el gráfico.
   
   ![Alt text](https://www.figma.com/design/UX1Q8PR4yr3p4Rm1RdUaER/EvoHealthyFoods?node-id=2511-240&t=WJliLe6gtBmdwsvL-1)
+
+## Interfaz principal repartidor
+
+![Alt text](./Interfaz/PantallaPrincipalRepartidor.JPEG)
