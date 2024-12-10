@@ -301,7 +301,7 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ![Conf 1](Interfaz/Configuración%20(Sergio%20Canul).svg)
 
 ## Vistas de Idioma, Cache y Acerca de
-* Vista de los diferentes idiomas, opcione de borrar caché y un resumen sobre el proyecto.
+* Vista de los diferentes idiomas, opcion de borrar caché y un resumen sobre el proyecto.
 
 ![Conf 2](Interfaz/Configuración2%20(Sergio%20Canul).svg)
 
