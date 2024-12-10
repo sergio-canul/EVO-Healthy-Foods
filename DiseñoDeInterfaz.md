@@ -38,6 +38,12 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
   - [Vista de los alimentos favoritos](#vista-de-los-alimentos-favoritos)
   - [Vistas de las recetas de los alimentos](#vistas-de-las-recetas-de-los-alimentos)
   - [Vista de agregar al carrito](#vista-de-agregar-al-carrito)
+- [Pedidos usuario](#pedidos_usuario)
+- [Vista Administrador](#vista_administrador)
+  - [Pantalla principal admin](#pantalla_principal_admin)
+  - [Manejo de empleados](#manejo_de_empleados)
+  - [Manejo de postulantes](#manejo_de_postulantes)
+
 
 # General
 
@@ -336,4 +342,23 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ![Alt text](./Interfaz/SistemaDePago_Edrei.svg)
 
 ## Notificaciones
-![Alt text](./Interfaz/SistemaDePago_Edrei.svg))
+![Alt text](./Interfaz/SistemaDePago_Edrei.svg)
+
+### Pedidos_usuario
+![Alt text](./Interfaz/Interfaz_Usuario_Pedido.jpg)
+* Hecho por Alejandro Flores Vera
+
+### vista_administrador
+
+## pantalla_principal_admin
+![Alt text](./Interfaz/Interfaz_Administrador-Pantalla_principal.PNG)
+* Hecho por Alejandro Flores Vera
+
+## Manejo_de_empleados
+![Alt text](./Interfaz/Interfaz_Administrador-Manejo_de_empleados.jpg)
+![Alt text](./Interfaz/Interfaz_administrador_manejo_de_empleados.jpg)
+* Hecho por Alejandro Flores Vera
+
+## Manejo_de_postulantes
+![Alt text](./Interfaz/Interfaz_Administrador_manejo_de_postulantes.jpg)}
+*Hecho por Alejandro Flores Vera
