@@ -254,3 +254,19 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ## Interfaz principal repartidor
 
 ![Alt text](./Interfaz/PantallaPrincipalRepartidor.JPG)
+
+## Historial de pedidos repartidor
+
+![Alt text](./Interfaz/HistorialPedidosRepartidor.JPG)
+
+## Pestaña de pedidos en espera
+
+![Alt text](./Interfaz/PedidosEsperaRepartidor.JPG)
+
+## Pedidos en curso
+
+![Alt text](./Interfaz/PedidosEnCursoRepartidor.JPG)
+
+## Mensajes y notificaciones de repartidor
+
+![Alt text](./Interfaz/MensajesNotificacionesRepartidor.JPG)
