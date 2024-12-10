@@ -23,6 +23,21 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
     - [Componentes\_ganancias](#componentes_ganancias)
   - [Gastos](#gastos)
     - [Componentes\_Perdidas](#componentes_perdidas)
+  - [Interfaz principal repartidor](#interfaz-principal-repartidor)
+  - [Historial de pedidos repartidor](#historial-de-pedidos-repartidor)
+  - [Pestaña de pedidos en espera](#pestaña-de-pedidos-en-espera)
+  - [Pedidos en curso](#pedidos-en-curso)
+  - [Mensajes y notificaciones de repartidor](#mensajes-y-notificaciones-de-repartidor)
+  - [Historial de compras](#historial-de-compras)
+  - [Soporte](#soporte)
+- [Configuración](#configuración)
+  - [Vistas de Mi Perfil](#vistas-de-mi-perfil)
+  - [Vistas de Idioma, Cache y Acerca de](#vistas-de-idioma-cache-y-acerca-de)
+  - [Vistas de Privacidad, Permisos del sistema y Cerrar sesión.](#vistas-de-privacidad-permisos-del-sistema-y-cerrar-sesión)
+- [Comidas Favoritas](#comidas-favoritas)
+  - [Vista de los alimentos favoritos](#vista-de-los-alimentos-favoritos)
+  - [Vistas de las recetas de los alimentos](#vistas-de-las-recetas-de-los-alimentos)
+  - [Vista de agregar al carrito](#vista-de-agregar-al-carrito)
 
 # General
 
@@ -276,4 +291,37 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 
 ## Soporte
 ![Alt text](./Interfaz/Soporte 1.SVG)
- 
+
+# Configuración
+* Autor: Sergio Alexander Canul Uicab
+## Vistas de Mi Perfil
+* Vista principal de la configuración junto con la parte de opciones de cambio de perfil.
+* Realiza diferentes funciones (fecha de nacimiento, correo electronico, cambio de foto, cambio de contraseña, télefono y eliminar la cuenta).
+![Conf 1](Interfaz/Configuración%20(Sergio%20Canul).svg)
+
+## Vistas de Idioma, Cache y Acerca de
+* Vista de los diferentes idiomas, opcione de borrar caché y un resumen sobre el proyecto.
+![Conf 2](Interfaz/Configuración2%20(Sergio%20Canul).svg)
+
+## Vistas de Privacidad, Permisos del sistema y Cerrar sesión.
+* Diferentes opciones de privacidad (Enviar notificaciones mediante diferentes formas).
+* Opciones de notificaciones automáticas y recomendaciones personalizadas.
+* Permisos del sistema (Ubicación, Cámara, Microfono, Contactos y Notificaciones).
+* Posibilidad de cerrar sesión.
+![Conf 3](Interfaz/Configuración3%20(Sergio%20Canul).svg)
+
+# Comidas Favoritas
+* Autor: Sergio Alexander Canul Uicab
+## Vista de los alimentos favoritos
+* Muestra las comidas favoritas (con sus minutos de espera y calorias).
+* También muestra una vista del menu desplazable.
+![Res 1](Interfaz/Recetas%20favoritas%20(Sergio%20Canul).svg)
+
+## Vistas de las recetas de los alimentos
+* Muestra una pequeña descripción y los ingredientes de la receta.
+* Tiene la posibilidad de agregar cantidad y agregar al carrito.
+![Res 2](Interfaz/Recetas%20favoritas2%20(Sergio%20Canul).svg)
+
+## Vista de agregar al carrito
+* Muestra el agregamiento al carrito de ejemplo de 4 de los alimentos anteriores.
+![Res 3](Interfaz/Recetas%20favoritas3%20(Sergio%20Canul).svg)
