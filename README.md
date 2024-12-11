@@ -412,6 +412,7 @@ La página debe funcionar correctamente en los navegadores más populares y usad
 * Nuestras bases de datos no guardarán las contraseñas, usarán un método de encriptación para asegurar la preservación de la calidad de los usuarios.
 
 # Diseño de Software
+* [Carpeta de los Diagramas](Diagramas)
 
 ## Diseño de Datos
 * [Diseño UML](DiseñoDeDatos.md)
@@ -421,3 +422,4 @@ La página debe funcionar correctamente en los navegadores más populares y usad
 
 ## Diseño de Interfaz
 * [Diseño de la aplicación](DiseñoDeInterfaz.md)
+* [Carpeta de los diseños](Interfaz)
