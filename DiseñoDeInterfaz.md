@@ -38,6 +38,12 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
   - [Vista de los alimentos favoritos](#vista-de-los-alimentos-favoritos)
   - [Vistas de las recetas de los alimentos](#vistas-de-las-recetas-de-los-alimentos)
   - [Vista de agregar al carrito](#vista-de-agregar-al-carrito)
+- [Pedidos usuario](#pedidos_usuario)
+- [Vista Administrador](#vista_administrador)
+  - [Pantalla principal admin](#pantalla_principal_admin)
+  - [Manejo de empleados](#manejo_de_empleados)
+  - [Manejo de postulantes](#manejo_de_postulantes)
+
 
 # General
 
@@ -287,10 +293,10 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 ![Alt text](./Interfaz/MensajesNotificacionesRepartidor.JPG)
 
 ## Historial de compras
-![Alt text](./Interfaz/historial.SVG)
+![Alt text](./Interfaz/historial_Ricardo.svg)
 
 ## Soporte
-![Alt text](./Interfaz/Soporte 1.SVG)
+![Alt text](./Interfaz/Soporte_Ricardo.svg)
 
 # Configuración
 * Autor: Sergio Alexander Canul Uicab
@@ -331,3 +337,34 @@ link vista del figma: https://www.figma.com/proto/UX1Q8PR4yr3p4Rm1RdUaER/EvoHeal
 * Muestra el agregamiento al carrito de ejemplo de 4 de los alimentos anteriores.
 
 ![Res 3](Interfaz/Recetas%20favoritas3%20(Sergio%20Canul).svg)
+
+## Sistema de pago
+![Alt text](./Interfaz/SistemaDePago_Edrei.svg)
+
+## Notificaciones
+![Alt text](./Interfaz/SistemaDePago_Edrei.svg)
+
+## Sistema de facturacion
+![Factura](https://github.com/user-attachments/assets/6e692eb9-1143-4122-97fa-ab6fe58069be)
+
+## Sistema de busqueda de sucursales
+![Sucursales](https://github.com/user-attachments/assets/c4f4a632-c30e-4ece-843f-e67813a5cb2b)
+
+### Pedidos_usuario
+![Alt text](./Interfaz/Interfaz_Usuario_Pedido.jpg)
+* Hecho por Alejandro Flores Vera
+
+### vista_administrador
+
+## pantalla_principal_admin
+![Alt text](./Interfaz/Interfaz_Administrador-Pantalla_principal.PNG)
+* Hecho por Alejandro Flores Vera
+
+## Manejo_de_empleados
+![Alt text](./Interfaz/Interfaz_Administrador-Manejo_de_empleados.jpg)
+![Alt text](./Interfaz/Interfaz_administrador_manejo_de_empleados.jpg)
+* Hecho por Alejandro Flores Vera
+
+## Manejo_de_postulantes
+![Alt text](./Interfaz/Interfaz_Administrador_manejo_de_postulantes.jpg)}
+*Hecho por Alejandro Flores Vera
